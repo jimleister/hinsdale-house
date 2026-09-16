@@ -1,0 +1,15 @@
+{
+  "dining": [
+    {"name":"Latitude 35","area":"Downtown Fayetteville","note":"Local dining option to consider during a downtown visit."},
+    {"name":"Gaston's","area":"Fayetteville","note":"A local restaurant option for Hinsdale House guests."},
+    {"name":"The Truck Stop","area":"Downtown Fayetteville","note":"Casual downtown food option."}
+  ],
+  "anchors": [
+    {"name":"Fort Bragg","category":"Military","note":"Major military destination serving the Fayetteville community."},
+    {"name":"Cape Fear Valley Medical Center","category":"Medical","note":"Major medical destination in Fayetteville."},
+    {"name":"Downtown Fayetteville","category":"District","note":"Dining, museums, entertainment and local businesses."},
+    {"name":"U.S. Army Airborne & Special Operations Museum","category":"Attraction","note":"Military-history museum in downtown Fayetteville."},
+    {"name":"Segra Stadium","category":"Attraction","note":"Downtown baseball and events venue."},
+    {"name":"Cape Fear Regional Theatre","category":"Attraction","note":"Local live theatre."}
+  ]
+}
