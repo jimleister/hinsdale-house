@@ -41,6 +41,14 @@ if (form) {
         throw new Error(result.message || 'Unable to send inquiry.');
       }
 
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          lead_source: 'website_inquiry',
+          suite_preference: data.get('suite') || 'No preference',
+          stay_type: data.get('stay_type') || 'Not specified'
+        });
+      }
+
       status.textContent = 'Thanks — your inquiry has been sent to Hinsdale House. We’ll be in touch soon.';
       status.className = 'form-status success';
       form.reset();
