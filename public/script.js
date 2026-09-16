@@ -1,14 +1,22 @@
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
 
+const suiteParam = new URLSearchParams(window.location.search).get('suite');
 const form = document.getElementById('stay-inquiry');
 const status = document.getElementById('form-status');
 
 if (form) {
   const arrival = form.elements.arrival;
   const departure = form.elements.departure;
+  const suiteSelect = form.elements.suite;
   const today = new Date().toISOString().split('T')[0];
   arrival.min = today;
   departure.min = today;
+
+  if (suiteParam && suiteSelect) {
+    const matchingOption = [...suiteSelect.options].find(option => option.value === suiteParam || option.text === suiteParam);
+    if (matchingOption) suiteSelect.value = matchingOption.value;
+  }
 
   arrival.addEventListener('change', () => {
     departure.min = arrival.value || today;
@@ -30,16 +38,14 @@ if (form) {
       data.append('_template', 'table');
       data.append('_captcha', 'false');
 
-      const response = await fetch('https://formsubmit.co/ajax/122.hinsdale@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/d8b2ae1a9ce7b3e2efe6cecbf9736a19', {
         method: 'POST',
         headers: { 'Accept': 'application/json' },
         body: data
       });
 
       const result = await response.json();
-      if (!response.ok || result.success === false) {
-        throw new Error(result.message || 'Unable to send inquiry.');
-      }
+      if (!response.ok || result.success === false) throw new Error(result.message || 'Unable to send inquiry.');
 
       if (typeof gtag === 'function') {
         gtag('event', 'generate_lead', {
@@ -61,3 +67,14 @@ if (form) {
     }
   });
 }
+
+document.querySelectorAll('[data-suite-interest]').forEach(link => {
+  link.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'suite_interest', {
+        suite_name: link.dataset.suiteInterest,
+        link_text: link.textContent.trim()
+      });
+    }
+  });
+});
