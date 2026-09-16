@@ -2,9 +2,6 @@
   "name": "hinsdale-house",
   "private": true,
   "type": "module",
-  "dependencies": {
-    "mimetext": "^3.0.27"
-  },
   "devDependencies": {
     "wrangler": "^4.0.0"
   },
