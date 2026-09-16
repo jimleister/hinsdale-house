@@ -1,6 +1,3 @@
-import { EmailMessage } from "cloudflare:email";
-import { createMimeMessage } from "mimetext";
-
 const RECIPIENT = "122.hinsdale@gmail.com";
 const SENDER = "inquiries@hinsdalehousenc.com";
 
@@ -18,11 +15,7 @@ function json(data, status = 200) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-
-    if (url.pathname !== "/api/inquiry") {
-      return env.ASSETS.fetch(request);
-    }
-
+    if (url.pathname !== "/api/inquiry") return env.ASSETS.fetch(request);
     if (request.method !== "POST") return json({ ok: false, error: "Method not allowed" }, 405);
 
     try {
@@ -39,41 +32,28 @@ export default {
       const stayType = clean(data.stay_type, 120);
       const message = clean(data.message, 2000);
 
-      if (!name || !email || !arrival || !departure) {
-        return json({ ok: false, error: "Please complete the required fields." }, 400);
-      }
+      if (!name || !email || !arrival || !departure) return json({ ok: false, error: "Please complete the required fields." }, 400);
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return json({ ok: false, error: "Please enter a valid email address." }, 400);
 
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-        return json({ ok: false, error: "Please enter a valid email address." }, 400);
-      }
-
-      const body = [
-        "New stay inquiry from hinsdalehousenc.com",
-        "",
-        `Name: ${name}`,
-        `Email: ${email}`,
-        `Phone: ${phone || "Not provided"}`,
-        `Guests: ${guests || "Not provided"}`,
-        `Arrival: ${arrival}`,
-        `Departure: ${departure}`,
-        `Preferred suite: ${suite || "No preference"}`,
-        `Reason for stay: ${stayType || "Not provided"}`,
-        "",
-        "Message:",
-        message || "No additional message."
+      const text = [
+        "New stay inquiry from hinsdalehousenc.com", "",
+        `Name: ${name}`, `Email: ${email}`, `Phone: ${phone || "Not provided"}`,
+        `Guests: ${guests || "Not provided"}`, `Arrival: ${arrival}`, `Departure: ${departure}`,
+        `Preferred suite: ${suite || "No preference"}`, `Reason for stay: ${stayType || "Not provided"}`,
+        "", "Message:", message || "No additional message."
       ].join("\n");
 
-      const msg = createMimeMessage();
-      msg.setSender({ name: "Hinsdale House Website", addr: SENDER });
-      msg.setRecipient(RECIPIENT);
-      msg.setSubject(`New Hinsdale House inquiry — ${name}`);
-      msg.addMessage({ contentType: "text/plain", data: body });
-      msg.setHeader("Reply-To", email);
+      await env.INQUIRY_EMAIL.send({
+        from: SENDER,
+        to: RECIPIENT,
+        replyTo: email,
+        subject: `New Hinsdale House inquiry - ${name}`,
+        text
+      });
 
-      await env.INQUIRY_EMAIL.send(new EmailMessage(SENDER, RECIPIENT, msg.asRaw()));
       return json({ ok: true });
     } catch (error) {
-      console.error("Inquiry error", error);
+      console.error("Inquiry error", error?.code, error?.message, error);
       return json({ ok: false, error: "We couldn't send your inquiry. Please try again or use Furnished Finder." }, 500);
     }
   }
