@@ -13,17 +13,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
+      - name: Install project tooling
+        run: npm install
+      - name: Audit project dependencies
+        run: npm audit --audit-level=high
       - name: Validate HTML
-        run: npm run validate:html
+        run: npx --yes html-validate@10.4.0 'public/**/*.html'
       - name: Start local site
-        run: npx serve public -l 4173 >/tmp/hinsdale-serve.log 2>&1 &
+        run: python3 -m http.server 4173 --directory public >/tmp/hinsdale-server.log 2>&1 &
       - name: Wait for local site
-        run: npx --yes wait-on http://127.0.0.1:4173/
+        run: |
+          for i in {1..20}; do
+            curl --fail --silent http://127.0.0.1:4173/ >/dev/null && exit 0
+            sleep 1
+          done
+          cat /tmp/hinsdale-server.log
+          exit 1
       - name: Accessibility checks
-        run: npx pa11y-ci --sitemap http://127.0.0.1:4173/sitemap.xml
+        run: npx --yes pa11y-ci@4.0.1 --config .pa11yci.json --sitemap http://127.0.0.1:4173/sitemap.xml
       - name: Lighthouse CI
-        run: npx lhci autorun --config=lighthouserc.json
+        run: npx --yes @lhci/cli@0.15.1 autorun --config=lighthouserc.json
       - name: Check public links
         uses: lycheeverse/lychee-action@v2
         with:
