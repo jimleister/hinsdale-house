@@ -1,0 +1,30 @@
+name: Website quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install
+      - name: Validate HTML
+        run: npm run validate:html
+      - name: Start local site
+        run: npx serve public -l 4173 >/tmp/hinsdale-serve.log 2>&1 &
+      - name: Accessibility checks
+        run: npx pa11y-ci --sitemap http://localhost:4173/sitemap.xml
+      - name: Lighthouse CI
+        run: npx lhci autorun --config=lighthouserc.json
+      - name: Check public links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --exclude-mail public/**/*.html public/**/*.xml public/**/*.txt
+          fail: true
