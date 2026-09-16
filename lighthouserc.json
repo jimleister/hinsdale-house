@@ -2,6 +2,9 @@
   "ci": {
     "collect": {
       "staticDistDir": "./public",
+      "settings": {
+        "chromeFlags": "--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage"
+      },
       "url": [
         "http://localhost/",
         "http://localhost/magnolia/",
