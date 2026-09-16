@@ -7,11 +7,5 @@
     "directory": "./public",
     "binding": "ASSETS",
     "run_worker_first": ["/api/*"]
-  },
-  "send_email": [
-    {
-      "name": "INQUIRY_EMAIL",
-      "destination_address": "122.hinsdale@gmail.com"
-    }
-  ]
+  }
 }
