@@ -3,9 +3,18 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "@lhci/cli": "^0.15.1",
+    "html-validate": "^10.4.0",
+    "pa11y-ci": "^4.0.1",
+    "qrcode": "^1.5.4",
+    "serve": "^14.2.4",
+    "sharp": "^0.34.3",
     "wrangler": "^4.0.0"
   },
   "scripts": {
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "validate:html": "html-validate 'public/**/*.html'",
+    "images": "node scripts/process-images.mjs",
+    "qr": "node scripts/generate-qr.mjs"
   }
 }
