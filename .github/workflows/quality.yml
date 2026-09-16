@@ -13,14 +13,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
       - run: npm install
       - name: Validate HTML
         run: npm run validate:html
       - name: Start local site
         run: npx serve public -l 4173 >/tmp/hinsdale-serve.log 2>&1 &
+      - name: Wait for local site
+        run: npx --yes wait-on http://127.0.0.1:4173/
       - name: Accessibility checks
-        run: npx pa11y-ci --sitemap http://localhost:4173/sitemap.xml
+        run: npx pa11y-ci --sitemap http://127.0.0.1:4173/sitemap.xml
       - name: Lighthouse CI
         run: npx lhci autorun --config=lighthouserc.json
       - name: Check public links
