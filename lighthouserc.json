@@ -2,7 +2,18 @@
   "ci": {
     "collect": {
       "staticDistDir": "./public",
-      "url": ["http://localhost/", "http://localhost/magnolia/", "http://localhost/dogwood/", "http://localhost/loblolly/", "http://localhost/hatteras/"]
+      "url": [
+        "http://localhost/",
+        "http://localhost/magnolia/",
+        "http://localhost/dogwood/",
+        "http://localhost/loblolly/",
+        "http://localhost/hatteras/",
+        "http://localhost/fort-bragg-furnished-housing/",
+        "http://localhost/travel-nurse-housing-fayetteville-nc/",
+        "http://localhost/corporate-housing-fayetteville-nc/",
+        "http://localhost/fayetteville-relocation-guide/",
+        "http://localhost/fayetteville-guide/"
+      ]
     },
     "assert": {
       "preset": "lighthouse:recommended",
