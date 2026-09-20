@@ -39,6 +39,53 @@ Build repeat referral relationships with organizations that regularly bring temp
 - Website: https://www.capefearvalley.com/
 - Hinsdale resource: https://hinsdalehousenc.com/travel-nurse-housing-fayetteville-nc/
 
+### Travel nurse & healthcare staffing agencies
+**Aya Healthcare**
+- Audience: travel RNs and other clinicians taking Fayetteville assignments.
+- Evidence: Aya has advertised 13-week travel RN assignments in Fayetteville and offers eligible travelers company housing or a housing stipend.
+- Outreach path: recruiter teams, account management and housing/traveler-support contacts.
+- Website: https://www.ayahealthcare.com/
+
+**AHS Staffing**
+- Audience: travel nurses and allied clinicians.
+- Evidence: current Fayetteville travel RN listings identify AHS Staffing for Cape Fear Valley Medical Center assignments.
+- Outreach path: recruiter/account teams handling North Carolina and Cape Fear Valley assignments.
+- Website: https://www.ahsstaffing.com/
+
+**PRN Healthcare**
+- Audience: travel nurses and allied clinicians.
+- Evidence: current Fayetteville/Cape Fear Valley travel listings show PRN Healthcare as an agency option.
+- Outreach path: recruiter/account teams supporting North Carolina travel assignments.
+- Website: https://www.prnhealthservices.com/
+
+**Favorite Healthcare Staffing**
+- Audience: travel nursing, allied health and other healthcare professionals.
+- Evidence: Favorite recruits for local and travel healthcare assignments; travel contracts commonly run about 13 weeks.
+- Outreach path: travel recruiter and client-services teams.
+- Website: https://www.favoritestaffing.com/
+
+**Maxim Healthcare — Fayetteville Regional Office**
+- Audience: nursing and healthcare personnel, including military/federal support and private-duty nursing.
+- Local office: 4151 Sycamore Dairy Rd., Suite F, Fayetteville, NC 28303; 910-485-2255; FayettevilleNC@maxhealth.com.
+- Outreach path: local office leadership/recruiting and military/federal support teams.
+- Website: https://www.maximhealthcare.com/maxim-healthcare-locations/fayetteville-nc-regional-office/
+
+**Cape Fear Valley Health supplemental/float staffing**
+- Audience: RNs/LPNs functioning as supplemental temporary staff across Cape Fear Valley patient-care areas.
+- This is a direct health-system recruiting path rather than an outside travel agency, but it belongs in the same housing-referral campaign.
+- Website: https://www.capefearvalley.com/float-pool-supplemental-staffing-nursing-opportunities
+
+**Additional local leads to qualify before outreach**
+- Fayetteville Medical Staffing, 1300 Raeford Rd.
+- High Quality Medical Staffing, 111 Lamon St., Suite 200.
+- Dominion Health Care Institute and Staffing, 1220 Walter Reed Rd., Suite 102.
+- Golden Life Staffing, Fayetteville.
+- These appear in current local business data, but confirm that they place temporary clinicians into assignments compatible with furnished housing before treating them as travel-nurse referral sources.
+
+**Competitive intelligence — Healthcare Stays**
+- Healthcare Stays, 511 N Reilly Rd., markets furnished Fayetteville accommodations specifically to traveling medical professionals near Cape Fear Valley Medical Center.
+- Treat as a housing competitor/market signal, not a recruiting referral target.
+
 ### Military, defense & government support
 **Fort Bragg ecosystem**
 - Audience: TDY personnel where appropriate, civilian trainers, technical representatives, defense contractors, consultants and project personnel.
