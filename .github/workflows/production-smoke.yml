@@ -1,0 +1,77 @@
+name: Production smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 12 * * *"
+
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait briefly for deployment
+        if: github.event_name == 'push'
+        run: sleep 45
+
+      - name: Verify HTTPS pages and expected content
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://hinsdalehousenc.com"
+          declare -A checks=(
+            ["/"]="Hinsdale House"
+            ["/magnolia/"]="Magnolia"
+            ["/dogwood/"]="Dogwood"
+            ["/loblolly/"]="Loblolly"
+            ["/hatteras/"]="Hatteras"
+            ["/fort-bragg-furnished-housing/"]="Fort Bragg"
+            ["/travel-nurse-housing-fayetteville-nc/"]="Fayetteville"
+            ["/corporate-housing-fayetteville-nc/"]="corporate"
+            ["/arts-higher-education-housing/"]="higher education"
+            ["/fayetteville-relocation-guide/"]="relocation"
+            ["/fayetteville-guide/"]="Haymount"
+            ["/reset-refit-resources/"]="Recovery"
+            ["/nearby-healthcare-pharmacies/"]="Healthcare"
+          )
+          for path in "${!checks[@]}"; do
+            body="$(curl --fail --silent --show-error --location --retry 2 --max-time 20 "$base$path")"
+            grep -Fqi "${checks[$path]}" <<<"$body" || {
+              echo "Expected content not found at $base$path"
+              exit 1
+            }
+          done
+
+      - name: Verify robots and sitemap
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error https://hinsdalehousenc.com/robots.txt | grep -F "Sitemap:"
+          sitemap="$(curl --fail --silent --show-error https://hinsdalehousenc.com/sitemap.xml)"
+          grep -F "https://hinsdalehousenc.com/" <<<"$sitemap"
+          grep -F "arts-higher-education-housing" <<<"$sitemap"
+
+      - name: Verify HTTP redirects to HTTPS
+        run: |
+          set -euo pipefail
+          final="$(curl --silent --show-error --location --output /dev/null --write-out '%{url_effective}' --max-redirs 5 http://hinsdalehousenc.com/)"
+          case "$final" in
+            https://hinsdalehousenc.com/*|https://www.hinsdalehousenc.com/*) ;;
+            *) echo "Unexpected final URL: $final"; exit 1 ;;
+          esac
+
+      - name: Verify TLS certificate
+        run: |
+          set -euo pipefail
+          echo | openssl s_client -servername hinsdalehousenc.com -connect hinsdalehousenc.com:443 2>/dev/null |
+            openssl x509 -noout -checkend 604800
+
+      - name: Inspect baseline security headers
+        run: |
+          set -euo pipefail
+          headers="$(curl --fail --silent --show-error --head https://hinsdalehousenc.com/ | tr -d '\r')"
+          echo "$headers"
+          grep -qi '^content-type:' <<<"$headers"
+          grep -qi '^x-content-type-options:' <<<"$headers" || echo "::warning::X-Content-Type-Options header is not present"
+          grep -qi '^referrer-policy:' <<<"$headers" || echo "::warning::Referrer-Policy header is not present"
+          grep -qi '^strict-transport-security:' <<<"$headers" || echo "::warning::HSTS header is not present"
