@@ -30,7 +30,10 @@ jobs:
           cat /tmp/hinsdale-server.log
           exit 1
       - name: Accessibility checks
-        run: npx --yes pa11y-ci@4.0.1 --config .pa11yci.json --sitemap http://127.0.0.1:4173/sitemap.xml
+        run: |
+          sed 's#https://hinsdalehousenc.com#http://127.0.0.1:4173#g' public/sitemap.xml > public/sitemap-ci.xml
+          npx --yes pa11y-ci@4.0.1 --config .pa11yci.json --sitemap http://127.0.0.1:4173/sitemap-ci.xml
+          rm public/sitemap-ci.xml
       - name: Lighthouse CI
         run: npx --yes @lhci/cli@0.15.1 autorun --config=lighthouserc.json
       - name: Check public links
