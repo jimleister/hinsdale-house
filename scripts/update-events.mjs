@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+process.env.TZ = 'America/New_York';
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'public', 'data');
 const outputPath = path.join(dataDir, 'events.json');
@@ -22,6 +24,12 @@ const sources = [
   ,{ key: 'symphony', name: 'Fayetteville Symphony Orchestra', url: 'https://www.fayettevillesymphony.org/calendar/' }
   ,{ key: 'fort-bragg', name: 'Fort Bragg Family and MWR', url: 'https://bragg.armymwr.com/calendar?mode=agenda' }
   ,{ key: 'cameo', name: 'Cameo Collective', url: 'https://ticketmesandhills.com/organizations/cameocollective' }
+  ,{ key: 'chamber', name: 'Greater Fayetteville Chamber', url: 'https://greaterfayettevillechambernc.growthzoneapp.com/events', parser: 'growthzone' }
+  ,{ key: 'chamber-community', name: 'Greater Fayetteville Chamber Community Calendar', url: 'https://greaterfayettevillechambernc.growthzoneapp.com/community-events', parser: 'growthzone' }
+  ,{ key: 'fsu-hub', name: 'FSU Entrepreneur & Business HUB', url: 'https://www.fsuhub.com/events' }
+  ,{ key: 'ftcc-business', name: 'FTCC Small Business Center', url: 'https://www.ncsbc.net/events.aspx?center=75020&mode=4' }
+  ,{ key: 'ncmbc', name: 'NC Military Business Center', url: 'https://www.ncmbc.us/events/' }
+  ,{ key: 'cool-spring', name: 'Cool Spring Downtown District', url: 'https://visitdowntownfayetteville.com/events/' }
 ];
 
 const approvedVenueTerms = [
@@ -31,15 +39,21 @@ const approvedVenueTerms = [
   'crown arena', 'crown expo', '1960 coliseum', '1707 owen', 'fayetteville state',
   'fsu planetarium', 'lyons science', 'methodist university', '5400 ramsey', 'arts xl',
   'fort bragg', 'main post parade field'
+  , 'fayetteville', 'hope mills', 'spring lake', 'raeford road', 'cliffdale',
+  'murchison road', 'ramsey street', 'fort bragg road'
 ];
 const visitorTerms = [
   'festival', 'concert', 'parade', 'game', 'hockey', 'baseball', 'theatre', 'theater',
   'musical', 'comedy', 'performance', 'show', 'fair', 'fireworks', 'fourth friday',
-  'memorial day', 'holiday', 'family', 'dance', 'art', 'market'
+  'memorial day', 'holiday', 'family', 'dance', 'art', 'market', 'networking',
+  'business after hours', 'coffee club', 'toastmasters', 'professional development',
+  'entrepreneur', 'small business', 'contracting', 'workshop', 'seminar', 'group run',
+  'run club', 'hiking', 'pickleball', 'cycling', 'climbing', 'fitness', 'wellness'
 ];
 const excludedTerms = [
   'city council', 'committee meeting', 'commission meeting', 'community watch',
-  'board meeting', 'networking breakfast', 'public hearing', 'routine class'
+  'board meeting', 'public hearing', 'member orientation', 'routine class',
+  'candidates forum', 'leadership fayetteville'
 ];
 
 const now = new Date();
@@ -69,6 +83,32 @@ function cleanText(value) {
   return String(value || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+function decodeHtml(value) {
+  return cleanText(String(value || '')
+    .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, decimal) => String.fromCodePoint(Number(decimal))));
+}
+
+function extractGrowthZone(html) {
+  return [...html.matchAll(/<div[^>]+itemtype=["']https?:\/\/schema\.org\/Event["'][^>]*>([\s\S]*?)(?=<div[^>]+itemtype=["']https?:\/\/schema\.org\/Event["']|$)/gi)].map(match => {
+    const block = match[1];
+    const value = item => block.match(new RegExp(`<meta[^>]+itemprop=["']${item}["'][^>]+content=["']([^"']+)`, 'i'))?.[1];
+    const titleMatch = block.match(/<a[^>]+itemprop=["']url["'][^>]*>([\s\S]*?)<\/a>/i);
+    const urlMatch = block.match(/<a[^>]+href=["']([^"']+)["'][^>]+itemprop=["']url["']/i);
+    const description = block.match(/itemprop=["']about["'][^>]*>([\s\S]*?)<\/p>/i)?.[1] || '';
+    return {
+      '@type': 'Event',
+      name: decodeHtml(titleMatch?.[1]),
+      startDate: value('startDate'),
+      endDate: value('endDate'),
+      description: decodeHtml(description),
+      url: decodeHtml(urlMatch?.[1]),
+      location: { name: 'Greater Fayetteville area' }
+    };
+  });
+}
+
 function locationText(location) {
   if (!location) return '';
   if (typeof location === 'string') return location;
@@ -78,6 +118,8 @@ function locationText(location) {
 
 function categoryFor(text) {
   const haystack = text.toLowerCase();
+  if (/network|entrepreneur|professional|toastmaster|contract|procurement|career|leadership|business after hours|business league|success luncheon|coffee club|power breakfast/.test(haystack)) return 'Professional';
+  if (/run|hiking|pickleball|cycling|climbing|fitness|wellness|yoga|recreation/.test(haystack)) return 'Recreation & Social';
   if (/hockey|baseball|game|sports/.test(haystack)) return 'Sports';
   if (/theatre|theater|musical|play|performance/.test(haystack)) return 'Theater & Arts';
   if (/concert|comedy|music|orchestra|dance/.test(haystack)) return 'Concerts & Shows';
@@ -86,20 +128,25 @@ function categoryFor(text) {
 }
 
 function areaFor(venue) {
-  return /crown|1960 coliseum|1707 owen/i.test(venue) ? 'short-drive' : 'nearby';
+  if (/haymount|downtown|festival park|segra|market house|hay street|green street|cameo|gilbert|cape fear regional/i.test(venue)) return 'nearby';
+  if (/crown|1960 coliseum|1707 owen|fayetteville state|methodist|fort bragg/i.test(venue)) return 'short-drive';
+  return 'greater-fayetteville';
 }
 
 function normalize(raw, source) {
   const venue = cleanText(locationText(raw.location));
-  let title = cleanText(raw.name);
+  let title = decodeHtml(raw.name);
   if (source.key === 'fsu-athletics') title = title.replace(/^Fayetteville State University\s+Vs\s+/i, 'Fayetteville State Football vs. ');
   const start = raw.startDate ? new Date(raw.startDate) : null;
   if (!title || !start || Number.isNaN(start.valueOf())) return null;
-  const text = `${title} ${venue} ${cleanText(raw.description)}`.toLowerCase();
+  const text = `${title} ${venue} ${decodeHtml(raw.description)}`.toLowerCase();
   if (excludedTerms.some(term => text.includes(term))) return null;
   if (source.key === 'fort-bragg' && !/open to the public|public event|special event/.test(text)) return null;
   if (source.key === 'cameo' && !/special|live|concert|symphony|open mic|reel sips|fright night|festival|karaoke|comedy|premiere|community/.test(text)) return null;
   if (source.key.endsWith('athletics') && !/fayetteville,? nc|fayetteville state|methodist university/i.test(venue)) return null;
+  if (source.key === 'chamber' && !/business after hours|networking breakfast|success luncheon|coffee club|toastmasters|young professionals|hispanic business league|military affairs.*breakfast|prayer breakfast|oyster roast/i.test(text)) return null;
+  if (source.key === 'chamber-community' && (!/network|professional|career|volunteer|run|walk|fitness|wellness|golf|cycling|hiking/i.test(text) || /trunk or treat|children|families/i.test(text))) return null;
+  if (source.key === 'ncmbc' && !/fayetteville|fort bragg|online|virtual/.test(text)) return null;
   if (!approvedVenueTerms.some(term => text.includes(term)) && !visitorTerms.some(term => text.includes(term))) return null;
   const url = raw.url || raw.sameAs || source.url;
   return {
@@ -114,7 +161,8 @@ function normalize(raw, source) {
     source: source.name,
     sourceKey: source.key,
     ...(source.key === 'fort-bragg' ? { accessNote: 'Installation access requirements may apply. Review the official event details before traveling.' } : {}),
-    ...(raw.isAccessibleForFree === true ? { free: true } : {})
+    ...(raw.isAccessibleForFree === true ? { free: true } : {}),
+    ...(/register|registration|rsvp|ticket/i.test(text) ? { registrationNote: 'Registration or advance confirmation may be required.' } : {})
   };
 }
 
@@ -126,7 +174,8 @@ async function fetchSource(source) {
   const response = await fetch(source.url, { headers: { 'user-agent': 'HinsdaleHouseEvents/1.0 (+https://hinsdalehousenc.com)' }, signal: AbortSignal.timeout(20000) });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   const html = await response.text();
-  return extractJsonLd(html).map(event => normalize(event, source)).filter(Boolean);
+  const rawEvents = source.parser === 'growthzone' ? extractGrowthZone(html) : extractJsonLd(html);
+  return rawEvents.map(event => normalize(event, source)).filter(Boolean);
 }
 
 const previous = await readJson(outputPath, { events: [] });

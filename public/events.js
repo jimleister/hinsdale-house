@@ -15,7 +15,17 @@ if (eventsRoot) {
   };
 
   function render(filter = 'all') {
-    const selected = events.filter(event => filter === 'all' || event.area === filter || event.category === filter);
+    let selected = events.filter(event => filter === 'all' || event.area === filter || event.category === filter);
+    if (limit && filter === 'all') {
+      const usedCategories = new Set();
+      const balanced = selected.filter(event => {
+        if (usedCategories.has(event.category)) return false;
+        usedCategories.add(event.category);
+        return true;
+      });
+      if (balanced.length < limit) balanced.push(...selected.filter(event => !balanced.includes(event)));
+      selected = balanced;
+    }
     const visible = limit ? selected.slice(0, limit) : selected;
     if (!visible.length) {
       list.innerHTML = '<p class="events-empty">No matching events are listed right now. Please check again soon.</p>';
@@ -23,11 +33,12 @@ if (eventsRoot) {
     }
     list.innerHTML = visible.map(event => {
       const start = new Date(event.start);
-      const area = event.area === 'nearby' ? 'Haymount & Downtown' : 'Worth the short drive';
+      const areaLabels = { nearby: 'Haymount & Downtown', 'short-drive': 'Worth the short drive', 'greater-fayetteville': 'Greater Fayetteville' };
+      const area = areaLabels[event.area] || 'Greater Fayetteville';
       return `<article class="event-card">
         <div class="event-date"><strong>${dateFormat.format(start)}</strong><span>${timeFormat.format(start)}</span></div>
         <div><div class="event-tags"><span>${escapeHtml(area)}</span><span>${escapeHtml(event.category)}</span>${event.free === true ? '<span>Free</span>' : ''}</div>
-        <h3>${escapeHtml(event.title)}</h3><p>${escapeHtml(event.venue)}</p>${event.accessNote ? `<p class="event-access">${escapeHtml(event.accessNote)}</p>` : ''}<a href="${safeUrl(event.url)}" rel="noopener">Official details →</a></div>
+        <h3>${escapeHtml(event.title)}</h3><p>${escapeHtml(event.venue)}</p>${event.accessNote ? `<p class="event-access">${escapeHtml(event.accessNote)}</p>` : ''}${event.registrationNote ? `<p class="event-access">${escapeHtml(event.registrationNote)}</p>` : ''}<a href="${safeUrl(event.url)}" rel="noopener">Official details →</a></div>
       </article>`;
     }).join('');
   }

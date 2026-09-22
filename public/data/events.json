@@ -1,14 +1,38 @@
 {
-  "updatedAt": "2026-09-22T08:02:28.505Z",
+  "updatedAt": "2026-09-22T08:21:45.249Z",
   "horizonDays": 180,
   "events": [
     {
+      "id": "chamber-hispanic-business-league-al-state-para-la-temporada-de-impuestos-2026-09-24",
+      "title": "Hispanic Business League: Alístate Para la Temporada de Impuestos",
+      "start": "2026-09-24T12:00:00.000Z",
+      "end": "2026-09-24T13:30:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-al-state-para-la-temporada-de-impuestos-1839760?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-business-after-hours-fascinate-u-children-s-museum-2026-09-24",
+      "title": "Business After Hours - Fascinate-U Children's Museum",
+      "start": "2026-09-24T21:30:00.000Z",
+      "end": "2026-09-24T23:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-after-hours-fascinate-u-children-s-museum-1768063?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "fsu-athletics-fayetteville-state-football-vs-virginia-union-2026-09-26",
       "title": "Fayetteville State Football vs. Virginia Union",
-      "start": "2026-09-26T18:00:00.000Z",
-      "end": "2026-09-26T18:00:00.000Z",
+      "start": "2026-09-26T17:00:00.000Z",
+      "end": "2026-09-26T17:00:00.000Z",
       "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "nearby",
+      "area": "greater-fayetteville",
       "category": "Sports",
       "url": "https://fsubroncos.com/sports/football/schedule/2026",
       "source": "Fayetteville State Athletics",
@@ -24,6 +48,54 @@
       "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
       "source": "Fayetteville State Planetarium",
       "sourceKey": "manual"
+    },
+    {
+      "id": "chamber-success-luncheon-preparing-for-tax-season-2026-09-30",
+      "title": "Success Luncheon - Preparing for Tax Season",
+      "start": "2026-09-30T15:30:00.000Z",
+      "end": "2026-09-30T17:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-preparing-for-tax-season-1927465?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-shield-ota-opportunity-for-construction-contractors-2026-10-01",
+      "title": "SHIELD OTA Opportunity for Construction Contractors",
+      "start": "2026-10-01T14:00:00.000Z",
+      "end": "2026-10-01T15:00:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/shield-ota-opportunity-for-construction-contractors/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "chamber-business-networking-breakfast-2026-2026-10-06",
+      "title": "Business Networking Breakfast 2026",
+      "start": "2026-10-06T11:30:00.000Z",
+      "end": "2026-10-06T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1671432?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-success-luncheon-laugh-it-off-harnessing-humor-in-life-work-2026-10-07",
+      "title": "Success Luncheon - Laugh It Off! Harnessing Humor in Life & Work",
+      "start": "2026-10-07T15:30:00.000Z",
+      "end": "2026-10-07T17:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-laugh-it-off-harnessing-humor-in-life-work-1687872?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
     },
     {
       "id": "dogwood-oktoberfest-2026",
@@ -51,12 +123,60 @@
       "sourceKey": "manual"
     },
     {
+      "id": "chamber-chamber-chatter-toastmasters-2026-10-13",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-10-13T11:30:00.000Z",
+      "end": "2026-10-13T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689082?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-infrastructure-environmental-and-energy-quarterly-forum-2026-10-13",
+      "title": "Infrastructure, Environmental and Energy Quarterly Forum",
+      "start": "2026-10-13T13:00:00.000Z",
+      "end": "2026-10-13T14:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/infrastructure-environmental-and-energy-quarterly-forum/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "chamber-chamber-coffee-club-2026-10-15",
+      "title": "Chamber Coffee Club",
+      "start": "2026-10-15T11:30:00.000Z",
+      "end": "2026-10-15T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-coffee-club-1671527?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-using-your-past-work-performance-to-win-government-trust-online-2026-10-15",
+      "title": "Using Your Past Work Performance to Win Government Trust (Online)",
+      "start": "2026-10-15T14:00:00.000Z",
+      "end": "2026-10-15T15:30:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/using-your-past-work-performance-to-win-government-trust-online/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
       "id": "fsu-athletics-fayetteville-state-football-vs-elizabeth-city-state-2026-10-17",
       "title": "Fayetteville State Football vs. Elizabeth City State",
-      "start": "2026-10-17T18:30:00.000Z",
-      "end": "2026-10-17T18:30:00.000Z",
+      "start": "2026-10-17T17:30:00.000Z",
+      "end": "2026-10-17T17:30:00.000Z",
       "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "nearby",
+      "area": "greater-fayetteville",
       "category": "Sports",
       "url": "https://fsubroncos.com/sports/football/schedule/2026",
       "source": "Fayetteville State Athletics",
@@ -74,6 +194,54 @@
       "sourceKey": "manual",
       "free": false,
       "featured": true
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2026-10-20",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-10-20T11:30:00.000Z",
+      "end": "2026-10-20T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689122?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-hispanic-business-league-2026-10-22",
+      "title": "Hispanic Business League",
+      "start": "2026-10-22T12:00:00.000Z",
+      "end": "2026-10-22T13:30:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839761?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-greater-carolina-oyster-roast-presented-by-brightspeed-2026-10-22",
+      "title": "Greater Carolina Oyster Roast - Presented by Brightspeed",
+      "start": "2026-10-22T21:30:00.000Z",
+      "end": "2026-10-23T00:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/greater-carolina-oyster-roast-presented-by-brightspeed-1691103?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-community-walk-to-end-alzheimer-s-fayetteville-2026-10-24",
+      "title": "Walk to End Alzheimer's - Fayetteville",
+      "start": "2026-10-24T13:00:00.000Z",
+      "end": "2026-10-24T16:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/walk-to-end-alzheimer-s-fayetteville-1900975?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community"
     },
     {
       "id": "dogwood-battle-mainstage-2026",
@@ -111,16 +279,52 @@
       "featured": true
     },
     {
+      "id": "chamber-quarterly-prayer-breakfast-2026-2026-10-27",
+      "title": "Quarterly Prayer Breakfast 2026",
+      "start": "2026-10-27T11:30:00.000Z",
+      "end": "2026-10-27T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/quarterly-prayer-breakfast-2026-1766736?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "fsu-athletics-fayetteville-state-football-vs-bowie-state-2026-10-31",
       "title": "Fayetteville State Football vs. Bowie State",
-      "start": "2026-10-31T18:00:00.000Z",
-      "end": "2026-10-31T18:00:00.000Z",
+      "start": "2026-10-31T17:00:00.000Z",
+      "end": "2026-10-31T17:00:00.000Z",
       "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "nearby",
+      "area": "greater-fayetteville",
       "category": "Sports",
       "url": "https://fsubroncos.com/sports/football/schedule/2026",
       "source": "Fayetteville State Athletics",
       "sourceKey": "fsu-athletics"
+    },
+    {
+      "id": "chamber-business-networking-breakfast-2026-2026-11-03",
+      "title": "Business Networking Breakfast 2026",
+      "start": "2026-11-03T12:30:00.000Z",
+      "end": "2026-11-03T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1881091?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-success-luncheon-2026-11-04",
+      "title": "Success Luncheon",
+      "start": "2026-11-04T16:30:00.000Z",
+      "end": "2026-11-04T18:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-1687873?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
     },
     {
       "id": "holly-day-fair-2026",
@@ -147,6 +351,18 @@
       "sourceKey": "manual"
     },
     {
+      "id": "chamber-chamber-chatter-toastmasters-2026-11-10",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-11-10T12:30:00.000Z",
+      "end": "2026-11-10T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689083?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
       "start": "2026-11-14T18:00:00-05:00",
@@ -171,6 +387,30 @@
       "sourceKey": "manual"
     },
     {
+      "id": "chamber-chamber-chatter-toastmasters-2026-11-17",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-11-17T12:30:00.000Z",
+      "end": "2026-11-17T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689123?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-hispanic-business-league-2026-11-18",
+      "title": "Hispanic Business League",
+      "start": "2026-11-18T13:00:00.000Z",
+      "end": "2026-11-18T14:30:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839762?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "fsu-planetarium-solar-system-2026",
       "title": "Magical Solar System Tour",
       "start": "2026-11-21T19:00:00-05:00",
@@ -182,6 +422,18 @@
       "sourceKey": "manual"
     },
     {
+      "id": "chamber-business-networking-breakfast-2026-2026-12-01",
+      "title": "Business Networking Breakfast 2026",
+      "start": "2026-12-01T12:30:00.000Z",
+      "end": "2026-12-01T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1881092?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "fsu-planetarium-telescopes-2026",
       "title": "All About Telescopes",
       "start": "2026-12-05T19:00:00-05:00",
@@ -191,6 +443,18 @@
       "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
       "source": "Fayetteville State Planetarium",
       "sourceKey": "manual"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2026-12-08",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-12-08T12:30:00.000Z",
+      "end": "2026-12-08T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689084?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
     },
     {
       "id": "disney-on-ice-2026",
@@ -205,6 +469,90 @@
       "sourceKey": "manual",
       "free": false,
       "featured": true
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2026-12-15",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2026-12-15T12:30:00.000Z",
+      "end": "2026-12-15T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689124?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-01-12",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-01-12T12:30:00.000Z",
+      "end": "2027-01-12T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689085?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-01-19",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-01-19T12:30:00.000Z",
+      "end": "2027-01-19T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689125?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-02-09",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-02-09T12:30:00.000Z",
+      "end": "2027-02-09T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689086?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-02-16",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-02-16T12:30:00.000Z",
+      "end": "2027-02-16T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689126?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-03-09",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-03-09T12:30:00.000Z",
+      "end": "2027-03-09T14:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689087?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-03-16",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-03-16T11:30:00.000Z",
+      "end": "2027-03-16T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689127?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
     }
   ],
   "sources": [
@@ -278,6 +626,36 @@
       "state": "retained",
       "count": 0,
       "error": "403 Forbidden"
+    },
+    {
+      "source": "Greater Fayetteville Chamber",
+      "state": "updated",
+      "count": 37
+    },
+    {
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "state": "updated",
+      "count": 2
+    },
+    {
+      "source": "FSU Entrepreneur & Business HUB",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "FTCC Small Business Center",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "NC Military Business Center",
+      "state": "updated",
+      "count": 3
+    },
+    {
+      "source": "Cool Spring Downtown District",
+      "state": "retained",
+      "count": 0
     }
   ]
 }
