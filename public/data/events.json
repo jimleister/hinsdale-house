@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T08:21:45.249Z",
+  "updatedAt": "2026-09-22T14:57:57.141Z",
   "horizonDays": 180,
   "events": [
     {
@@ -574,7 +574,8 @@
     {
       "source": "Fayetteville Marksmen",
       "state": "retained",
-      "count": 0
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "source": "Fayetteville Dogwood Festival",
