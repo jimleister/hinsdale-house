@@ -109,3 +109,29 @@ document.querySelectorAll('[data-suite-interest]').forEach(link => link.addEvent
 document.querySelectorAll('[data-track]').forEach(link => link.addEventListener('click', () => {
   if (typeof gtag === 'function') gtag('event', link.dataset.track, { link_url: link.href, link_text: link.textContent.trim() });
 }));
+
+document.querySelectorAll('.site-header').forEach(header => {
+  const nav = header.querySelector('nav');
+  if (!nav) return;
+  const toggle = document.createElement('button');
+  toggle.className = 'menu-toggle';
+  toggle.type = 'button';
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', 'Open site menu');
+  toggle.textContent = 'Menu';
+  header.insertBefore(toggle, nav);
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Close site menu' : 'Open site menu');
+    toggle.textContent = open ? 'Close' : 'Menu';
+  });
+});
+
+document.querySelectorAll('footer').forEach(footer => {
+  if (footer.querySelector('.footer-contact')) return;
+  const contact = document.createElement('p');
+  contact.className = 'footer-contact';
+  contact.innerHTML = '<a href="tel:+18142338517">814.233.8517</a> · <a href="https://www.furnishedfinder.com/property/1040760_1?moveDate=%7B%22in%22%3A%222026-09-30%22%7D" rel="noopener" data-track="furnished_finder_click">Furnished Finder</a>';
+  footer.appendChild(contact);
+});
