@@ -1,0 +1,283 @@
+{
+  "updatedAt": "2026-09-22T08:02:28.505Z",
+  "horizonDays": 180,
+  "events": [
+    {
+      "id": "fsu-athletics-fayetteville-state-football-vs-virginia-union-2026-09-26",
+      "title": "Fayetteville State Football vs. Virginia Union",
+      "start": "2026-09-26T18:00:00.000Z",
+      "end": "2026-09-26T18:00:00.000Z",
+      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
+      "area": "nearby",
+      "category": "Sports",
+      "url": "https://fsubroncos.com/sports/football/schedule/2026",
+      "source": "Fayetteville State Athletics",
+      "sourceKey": "fsu-athletics"
+    },
+    {
+      "id": "fsu-planetarium-fall-sky-2026",
+      "title": "Fall Sky Over Fayetteville",
+      "start": "2026-09-26T19:00:00-04:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "dogwood-oktoberfest-2026",
+      "title": "Dogwood Nights: Oktoberfest Street Party",
+      "start": "2026-10-10T18:00:00-04:00",
+      "end": "2026-10-10T22:00:00-04:00",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.thedogwoodfestival.com/2026-2027-events",
+      "source": "Fayetteville Dogwood Festival",
+      "sourceKey": "manual",
+      "free": true,
+      "featured": true
+    },
+    {
+      "id": "fsu-planetarium-black-holes-2026",
+      "title": "Say NO to Black Holes",
+      "start": "2026-10-10T19:00:00-04:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "fsu-athletics-fayetteville-state-football-vs-elizabeth-city-state-2026-10-17",
+      "title": "Fayetteville State Football vs. Elizabeth City State",
+      "start": "2026-10-17T18:30:00.000Z",
+      "end": "2026-10-17T18:30:00.000Z",
+      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
+      "area": "nearby",
+      "category": "Sports",
+      "url": "https://fsubroncos.com/sports/football/schedule/2026",
+      "source": "Fayetteville State Athletics",
+      "sourceKey": "fsu-athletics"
+    },
+    {
+      "id": "marksmen-opening-night-2026",
+      "title": "Fayetteville Marksmen Opening Night vs. Roanoke",
+      "start": "2026-10-17T18:00:00-04:00",
+      "venue": "Crown Coliseum",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://marksmenhockey.com/schedule/calendar/",
+      "source": "Fayetteville Marksmen",
+      "sourceKey": "manual",
+      "free": false,
+      "featured": true
+    },
+    {
+      "id": "dogwood-battle-mainstage-2026",
+      "title": "Battle for the MainStage",
+      "start": "2026-10-24T18:00:00-04:00",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Concerts & Shows",
+      "url": "https://www.thedogwoodfestival.com/2026-2027-events",
+      "source": "Fayetteville Dogwood Festival",
+      "sourceKey": "manual",
+      "featured": true
+    },
+    {
+      "id": "fsu-planetarium-death-universe-2026",
+      "title": "Death by Universe",
+      "start": "2026-10-24T19:00:00-04:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "symphony-nosferatu-2026",
+      "title": "Nosferatu: A Symphony of Horror",
+      "start": "2026-10-24T19:30:00-04:00",
+      "venue": "Cameo Art House Theatre",
+      "area": "nearby",
+      "category": "Concerts & Shows",
+      "url": "https://www.fayettevillesymphony.org/calendar/",
+      "source": "Fayetteville Symphony Orchestra",
+      "sourceKey": "manual",
+      "featured": true
+    },
+    {
+      "id": "fsu-athletics-fayetteville-state-football-vs-bowie-state-2026-10-31",
+      "title": "Fayetteville State Football vs. Bowie State",
+      "start": "2026-10-31T18:00:00.000Z",
+      "end": "2026-10-31T18:00:00.000Z",
+      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
+      "area": "nearby",
+      "category": "Sports",
+      "url": "https://fsubroncos.com/sports/football/schedule/2026",
+      "source": "Fayetteville State Athletics",
+      "sourceKey": "fsu-athletics"
+    },
+    {
+      "id": "holly-day-fair-2026",
+      "title": "Holly Day Fair",
+      "start": "2026-11-05T09:00:00-05:00",
+      "end": "2026-11-08T17:00:00-05:00",
+      "venue": "Crown Expo Center",
+      "area": "short-drive",
+      "category": "Festivals",
+      "url": "https://www.crowncomplexnc.com/events/all",
+      "source": "Crown Complex",
+      "sourceKey": "manual",
+      "featured": false
+    },
+    {
+      "id": "fsu-planetarium-space-exploration-2026",
+      "title": "Space Exploration: Past and Future",
+      "start": "2026-11-07T19:00:00-05:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "dogwood-sock-hop-2026",
+      "title": "Dogwood Nights: Sock Hop + Classic Cars",
+      "start": "2026-11-14T18:00:00-05:00",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.thedogwoodfestival.com/2026-2027-events",
+      "source": "Fayetteville Dogwood Festival",
+      "sourceKey": "manual",
+      "free": true,
+      "featured": true
+    },
+    {
+      "id": "symphony-brahms-2026",
+      "title": "Dirk Meyer Conducts Brahms 1",
+      "start": "2026-11-14T19:30:00-05:00",
+      "venue": "Methodist University",
+      "area": "short-drive",
+      "category": "Concerts & Shows",
+      "url": "https://www.fayettevillesymphony.org/calendar/",
+      "source": "Fayetteville Symphony Orchestra",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "fsu-planetarium-solar-system-2026",
+      "title": "Magical Solar System Tour",
+      "start": "2026-11-21T19:00:00-05:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "fsu-planetarium-telescopes-2026",
+      "title": "All About Telescopes",
+      "start": "2026-12-05T19:00:00-05:00",
+      "venue": "Fayetteville State University Planetarium",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
+      "source": "Fayetteville State Planetarium",
+      "sourceKey": "manual"
+    },
+    {
+      "id": "disney-on-ice-2026",
+      "title": "Disney On Ice Presents Spotlight Magic",
+      "start": "2026-12-10T19:00:00-05:00",
+      "end": "2026-12-13T17:00:00-05:00",
+      "venue": "Crown Coliseum",
+      "area": "short-drive",
+      "category": "Family",
+      "url": "https://www.crowncomplexnc.com/events/all",
+      "source": "Crown Complex",
+      "sourceKey": "manual",
+      "free": false,
+      "featured": true
+    }
+  ],
+  "sources": [
+    {
+      "source": "DistiNCtly Fayetteville",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "City of Fayetteville",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Crown Complex",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Fayetteville Marksmen",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Fayetteville Dogwood Festival",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Gilbert Theater",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Cape Fear Regional Theatre",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Arts Council of Fayetteville/Cumberland County",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Fayetteville State Athletics",
+      "state": "updated",
+      "count": 6
+    },
+    {
+      "source": "Fayetteville State Planetarium",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Methodist University Athletics",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Fayetteville Symphony Orchestra",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Fort Bragg Family and MWR",
+      "state": "retained",
+      "count": 0
+    },
+    {
+      "source": "Cameo Collective",
+      "state": "retained",
+      "count": 0,
+      "error": "403 Forbidden"
+    }
+  ]
+}

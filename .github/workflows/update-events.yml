@@ -1,0 +1,31 @@
+name: Refresh local events
+
+on:
+  schedule:
+    - cron: '15 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh approved event sources
+        run: node scripts/update-events.mjs
+      - name: Commit event changes
+        run: |
+          if git diff --quiet -- public/data/events.json; then
+            echo "No event changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/events.json
+          git commit -m "Refresh upcoming local events"
+          git push
