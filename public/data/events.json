@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:57:57.141Z",
+  "updatedAt": "2026-09-23T15:03:10.757Z",
   "horizonDays": 180,
   "events": [
     {
@@ -558,8 +558,8 @@
   "sources": [
     {
       "source": "DistiNCtly Fayetteville",
-      "state": "retained",
-      "count": 0
+      "state": "updated",
+      "count": 6
     },
     {
       "source": "City of Fayetteville",
@@ -574,8 +574,7 @@
     {
       "source": "Fayetteville Marksmen",
       "state": "retained",
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 0
     },
     {
       "source": "Fayetteville Dogwood Festival",
