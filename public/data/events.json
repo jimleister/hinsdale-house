@@ -1,67 +1,7 @@
 {
-  "updatedAt": "2026-09-24T15:09:50.263Z",
+  "updatedAt": "2026-09-25T15:18:05.725Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-hispanic-business-league-al-state-para-la-temporada-de-impuestos-2026-09-24",
-      "title": "Hispanic Business League: Alístate Para la Temporada de Impuestos",
-      "start": "2026-09-24T12:00:00.000Z",
-      "end": "2026-09-24T13:30:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-al-state-para-la-temporada-de-impuestos-1839760?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "chamber-business-after-hours-fascinate-u-children-s-museum-2026-09-24",
-      "title": "Business After Hours - Fascinate-U Children's Museum",
-      "start": "2026-09-24T21:30:00.000Z",
-      "end": "2026-09-24T23:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-after-hours-fascinate-u-children-s-museum-1768063?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "distinctly-48th-annual-international-folk-festival-2026-09-25",
-      "title": "48th Annual International Folk Festival",
-      "start": "2026-09-25T00:00:00.000Z",
-      "end": "2026-09-26T00:00:00.000Z",
-      "venue": "Festival Park",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/48th-annual-international-folk-festival/30036/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-workforce-development-and-career-opportunites-2026-09-25",
-      "title": "Workforce Development and Career Opportunites",
-      "start": "2026-09-25T00:00:00.000Z",
-      "end": "2026-09-25T00:00:00.000Z",
-      "venue": "Segra Stadium",
-      "area": "nearby",
-      "category": "Professional",
-      "url": "https://www.distinctlyfayettevillenc.com/event/workforce-development-and-career-opportunites/31966/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-entrepreneurship-and-local-business-2026-09-25",
-      "title": "Entrepreneurship and Local Business",
-      "start": "2026-09-25T00:00:00.000Z",
-      "end": "2026-09-25T00:00:00.000Z",
-      "venue": "Segra Stadium",
-      "area": "nearby",
-      "category": "Professional",
-      "url": "https://www.distinctlyfayettevillenc.com/event/entrepreneurship-and-local-business/31967/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "fsu-athletics-fayetteville-state-football-vs-virginia-union-2026-09-26",
       "title": "Fayetteville State Football vs. Virginia Union",
@@ -678,7 +618,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 37
+      "count": 35
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
