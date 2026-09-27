@@ -1,30 +1,7 @@
 {
-  "updatedAt": "2026-09-26T14:31:56.428Z",
+  "updatedAt": "2026-09-27T15:11:04.253Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "fsu-athletics-fayetteville-state-football-vs-virginia-union-2026-09-26",
-      "title": "Fayetteville State Football vs. Virginia Union",
-      "start": "2026-09-26T17:00:00.000Z",
-      "end": "2026-09-26T17:00:00.000Z",
-      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Sports",
-      "url": "https://fsubroncos.com/sports/football/schedule/2026",
-      "source": "Fayetteville State Athletics",
-      "sourceKey": "fsu-athletics"
-    },
-    {
-      "id": "fsu-planetarium-fall-sky-2026",
-      "title": "Fall Sky Over Fayetteville",
-      "start": "2026-09-26T19:00:00-04:00",
-      "venue": "Fayetteville State University Planetarium",
-      "area": "short-drive",
-      "category": "Family",
-      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
-      "source": "Fayetteville State Planetarium",
-      "sourceKey": "manual"
-    },
     {
       "id": "chamber-success-luncheon-preparing-for-tax-season-2026-09-30",
       "title": "Success Luncheon - Preparing for Tax Season",
@@ -547,7 +524,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 5
+      "count": 3
     },
     {
       "source": "City of Fayetteville",
