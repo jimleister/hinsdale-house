@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T15:11:04.253Z",
+  "updatedAt": "2026-09-28T18:10:51.418Z",
   "horizonDays": 180,
   "events": [
     {
@@ -27,6 +27,18 @@
       "sourceKey": "ncmbc"
     },
     {
+      "id": "distinctly-freedom-run-5k-2026-10-03",
+      "title": "Freedom Run 5K",
+      "start": "2026-10-03T00:00:00.000Z",
+      "end": "2026-10-03T00:00:00.000Z",
+      "venue": "FTCC",
+      "area": "greater-fayetteville",
+      "category": "Recreation & Social",
+      "url": "https://www.distinctlyfayettevillenc.com/event/freedom-run-5k/31776/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "chamber-business-networking-breakfast-2026-2026-10-06",
       "title": "Business Networking Breakfast 2026",
       "start": "2026-10-06T11:30:00.000Z",
@@ -49,6 +61,19 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-laugh-it-off-harnessing-humor-in-life-work-1687872?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-community-real-estate-investing-masterclass-for-real-estate-professionals-2026-10-08",
+      "title": "Real Estate Investing Masterclass for Real Estate Professionals",
+      "start": "2026-10-08T22:00:00.000Z",
+      "end": "2026-10-09T00:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/real-estate-investing-masterclass-for-real-estate-professionals-1938655?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community",
+      "registrationNote": "Registration or advance confirmation may be required."
     },
     {
       "id": "dogwood-oktoberfest-2026",
@@ -524,7 +549,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "City of Fayetteville",
@@ -584,7 +609,8 @@
     {
       "source": "Fort Bragg Family and MWR",
       "state": "retained",
-      "count": 0
+      "count": 0,
+      "error": "502 Bad Gateway"
     },
     {
       "source": "Cameo Collective",
@@ -600,7 +626,7 @@
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "updated",
-      "count": 2
+      "count": 3
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
