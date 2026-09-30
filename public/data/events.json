@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T16:32:11.529Z",
+  "updatedAt": "2026-09-30T16:25:39.065Z",
   "horizonDays": 180,
   "events": [
     {
@@ -206,6 +206,18 @@
       "area": "greater-fayetteville",
       "category": "Festivals",
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/walk-to-end-alzheimer-s-fayetteville-1900975?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community"
+    },
+    {
+      "id": "chamber-community-trick-or-treat-2026-10-24",
+      "title": "Trick or Treat",
+      "start": "2026-10-24T20:00:00.000Z",
+      "end": "2026-10-24T22:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/trick-or-treat-1941838?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber Community Calendar",
       "sourceKey": "chamber-community"
     },
@@ -613,7 +625,7 @@
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "updated",
-      "count": 2
+      "count": 3
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
