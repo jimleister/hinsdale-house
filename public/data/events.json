@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T16:25:39.065Z",
+  "updatedAt": "2026-10-01T17:02:53.333Z",
   "horizonDays": 180,
   "events": [
     {
@@ -37,6 +37,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1671432?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-community-open-house-and-community-networking-event-2026-10-06",
+      "title": "Open House and Community Networking Event",
+      "start": "2026-10-06T21:30:00.000Z",
+      "end": "2026-10-06T23:30:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/open-house-and-community-networking-event-1942657?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community"
     },
     {
       "id": "chamber-success-luncheon-laugh-it-off-harnessing-humor-in-life-work-2026-10-07",
@@ -174,6 +186,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "chamber-success-luncheon-storytelling-in-marketing-2026-10-21",
+      "title": "Success Luncheon - Storytelling in Marketing",
+      "start": "2026-10-21T15:30:00.000Z",
+      "end": "2026-10-21T17:30:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-storytelling-in-marketing-1942909?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
+    },
+    {
       "id": "chamber-hispanic-business-league-2026-10-22",
       "title": "Hispanic Business League",
       "start": "2026-10-22T12:00:00.000Z",
@@ -305,14 +329,14 @@
       "sourceKey": "chamber"
     },
     {
-      "id": "chamber-success-luncheon-2026-11-04",
-      "title": "Success Luncheon",
+      "id": "chamber-success-luncheon-the-content-you-don-t-make-can-t-work-for-you-2026-11-04",
+      "title": "Success Luncheon - The Content You Don't Make Can't Work for You",
       "start": "2026-11-04T16:30:00.000Z",
       "end": "2026-11-04T18:00:00.000Z",
       "venue": "Greater Fayetteville area",
       "area": "greater-fayetteville",
       "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-1687873?sourceTypeId=Website",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-the-content-you-don-t-make-can-t-work-for-you-1687873?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
     },
@@ -620,12 +644,12 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 34
+      "count": 35
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
