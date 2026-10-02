@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-01T17:02:53.333Z",
+  "updatedAt": "2026-10-02T16:17:11.897Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "ncmbc-shield-ota-opportunity-for-construction-contractors-2026-10-01",
-      "title": "SHIELD OTA Opportunity for Construction Contractors",
-      "start": "2026-10-01T17:30:00.000Z",
-      "end": "2026-10-01T18:30:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/shield-ota-opportunity-for-construction-contractors/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
     {
       "id": "distinctly-freedom-run-5k-2026-10-03",
       "title": "Freedom Run 5K",
@@ -206,18 +194,6 @@
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839761?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "chamber-greater-carolina-oyster-roast-presented-by-brightspeed-2026-10-22",
-      "title": "Greater Carolina Oyster Roast - Presented by Brightspeed",
-      "start": "2026-10-22T21:30:00.000Z",
-      "end": "2026-10-23T00:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/greater-carolina-oyster-roast-presented-by-brightspeed-1691103?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
     },
@@ -644,7 +620,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 35
+      "count": 34
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
@@ -664,7 +640,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 4
+      "count": 3
     },
     {
       "source": "Cool Spring Downtown District",
