@@ -8,3 +8,5 @@ node_modules/
 
 # High-resolution originals remain in the approved Drive photo library.
 photos/
+
+.lighthouseci/
