@@ -5,3 +5,6 @@ node_modules/
 .env.*
 .DS_Store
 *.log
+
+# High-resolution originals remain in the approved Drive photo library.
+photos/

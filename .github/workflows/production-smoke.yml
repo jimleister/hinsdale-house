@@ -26,6 +26,7 @@ jobs:
             ["/dogwood/"]="Dogwood"
             ["/loblolly/"]="Loblolly"
             ["/hatteras/"]="Hatteras"
+            ["/staycation-fayetteville-nc/"]="Stay local"
             ["/fort-bragg-furnished-housing/"]="Fort Bragg"
             ["/travel-nurse-housing-fayetteville-nc/"]="Fayetteville"
             ["/corporate-housing-fayetteville-nc/"]="corporate"

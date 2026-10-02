@@ -3,6 +3,7 @@ if (year) year.textContent = new Date().getFullYear();
 
 const params = new URLSearchParams(window.location.search);
 const suiteParam = params.get('suite');
+const stayTypeParam = params.get('stay_type');
 const attributionKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
 const attribution = {};
 attributionKeys.forEach(key => {
@@ -32,6 +33,11 @@ if (form) {
   if (suiteParam && suiteSelect) {
     const matchingOption = [...suiteSelect.options].find(option => option.value === suiteParam || option.text === suiteParam);
     if (matchingOption) suiteSelect.value = matchingOption.value;
+  }
+
+  if (stayTypeParam && form.elements.stay_type) {
+    const select = form.elements.stay_type;
+    if ([...select.options].some(option => option.value === stayTypeParam)) select.value = stayTypeParam;
   }
 
   function updateSummary() {

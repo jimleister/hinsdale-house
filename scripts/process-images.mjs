@@ -30,12 +30,15 @@ for (const file of files) {
   const base = path.basename(rel, path.extname(rel)).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   await fs.mkdir(dir, { recursive: true });
   const metadata = await sharp(file).metadata();
+  const sourceStat = await fs.stat(file);
   for (const width of widths.filter(w => !metadata.width || w <= metadata.width)) {
     for (const format of formats) {
       const out = path.join(dir, `${base}-${width}.${format === 'jpeg' ? 'jpg' : format}`);
+      const existing = await fs.stat(out).catch(() => null);
+      if (existing?.size > 0 && existing.mtimeMs >= sourceStat.mtimeMs) continue;
       let image = sharp(file).rotate().resize({ width, withoutEnlargement: true });
       if (format === 'webp') image = image.webp({ quality: 82 });
-      if (format === 'avif') image = image.avif({ quality: 55 });
+      if (format === 'avif') image = image.avif({ quality: 55, effort: 2 });
       if (format === 'jpeg') image = image.jpeg({ quality: 84, progressive: true });
       await image.toFile(out);
     }
