@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-02T16:17:11.897Z",
+  "updatedAt": "2026-10-03T14:44:46.763Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "distinctly-freedom-run-5k-2026-10-03",
-      "title": "Freedom Run 5K",
-      "start": "2026-10-03T00:00:00.000Z",
-      "end": "2026-10-03T00:00:00.000Z",
-      "venue": "FTCC",
-      "area": "greater-fayetteville",
-      "category": "Recreation & Social",
-      "url": "https://www.distinctlyfayettevillenc.com/event/freedom-run-5k/31776/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "chamber-business-networking-breakfast-2026-2026-10-06",
       "title": "Business Networking Breakfast 2026",
@@ -353,6 +341,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
+      "title": "Innovation and Technology Quarterly Industry Forum",
+      "start": "2026-11-12T15:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
       "start": "2026-11-14T18:00:00-05:00",
@@ -549,7 +549,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 4
+      "count": 5
     },
     {
       "source": "City of Fayetteville",
@@ -640,7 +640,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "Cool Spring Downtown District",
