@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:44:46.763Z",
+  "updatedAt": "2026-10-04T15:23:53.293Z",
   "horizonDays": 180,
   "events": [
     {
@@ -50,6 +50,18 @@
       "source": "Greater Fayetteville Chamber Community Calendar",
       "sourceKey": "chamber-community",
       "registrationNote": "Registration or advance confirmation may be required."
+    },
+    {
+      "id": "distinctly-dogwood-nights-oktoberfest-2026-10-10",
+      "title": "Dogwood Nights: Oktoberfest",
+      "start": "2026-10-10T00:00:00.000Z",
+      "end": "2026-10-10T00:00:00.000Z",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/dogwood-nights%3a-oktoberfest/30347/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "dogwood-oktoberfest-2026",
@@ -123,6 +135,18 @@
       "url": "https://www.ncmbc.us/event/using-your-past-work-performance-to-win-government-trust-online/",
       "source": "NC Military Business Center",
       "sourceKey": "ncmbc"
+    },
+    {
+      "id": "distinctly-cancelled-daniel-tosh-my-first-farewell-tour-2026-10-16",
+      "title": "CANCELLED: Daniel Tosh: My First Farewell Tour",
+      "start": "2026-10-16T00:00:00.000Z",
+      "end": "2026-10-16T00:00:00.000Z",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Theater & Arts",
+      "url": "https://www.distinctlyfayettevillenc.com/event/cancelled%3a-daniel-tosh%3a-my-first-farewell-tour/29154/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "fsu-athletics-fayetteville-state-football-vs-elizabeth-city-state-2026-10-17",
