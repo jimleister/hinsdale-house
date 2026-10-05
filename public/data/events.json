@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T15:23:53.293Z",
+  "updatedAt": "2026-10-05T19:19:08.208Z",
   "horizonDays": 180,
   "events": [
     {
@@ -125,6 +125,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "ncmbc-same-omaha-post-apex-accelerator-virtual-matchmaking-event-october-15-2026-2026-10-15",
+      "title": "SAME Omaha Post / APEX Accelerator – Virtual Matchmaking Event – October 15, 2026",
+      "start": "2026-10-15T13:00:00.000Z",
+      "end": "2026-10-15T20:00:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/same-omaha-post-apex-accelerator-virtual-matchmaking-event-october-15-2026/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
       "id": "ncmbc-using-your-past-work-performance-to-win-government-trust-online-2026-10-15",
       "title": "Using Your Past Work Performance to Win Government Trust (Online)",
       "start": "2026-10-15T14:00:00.000Z",
@@ -145,6 +157,18 @@
       "area": "short-drive",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/cancelled%3a-daniel-tosh%3a-my-first-farewell-tour/29154/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-homecoming-methodist-university-football-2026-10-17",
+      "title": "Homecoming: Methodist University Football",
+      "start": "2026-10-17T00:00:00.000Z",
+      "end": "2026-10-17T00:00:00.000Z",
+      "venue": "Monarch Stadium",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/homecoming%3a-methodist-university-football/30304/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -365,18 +389,6 @@
       "sourceKey": "chamber"
     },
     {
-      "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
-      "title": "Innovation and Technology Quarterly Industry Forum",
-      "start": "2026-11-12T15:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z",
-      "venue": "Online · PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
-    {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
       "start": "2026-11-14T18:00:00-05:00",
@@ -573,7 +585,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 5
+      "count": 6
     },
     {
       "source": "City of Fayetteville",
@@ -669,7 +681,8 @@
     {
       "source": "Cool Spring Downtown District",
       "state": "retained",
-      "count": 0
+      "count": 0,
+      "error": "502 Bad Gateway"
     }
   ]
 }
