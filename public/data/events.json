@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-10-06T16:50:09.963Z",
+  "updatedAt": "2026-10-07T17:26:40.165Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-business-networking-breakfast-2026-2026-10-06",
-      "title": "Business Networking Breakfast 2026",
-      "start": "2026-10-06T11:30:00.000Z",
-      "end": "2026-10-06T13:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1671432?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "chamber-community-open-house-and-community-networking-event-2026-10-06",
-      "title": "Open House and Community Networking Event",
-      "start": "2026-10-06T21:30:00.000Z",
-      "end": "2026-10-06T23:30:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/open-house-and-community-networking-event-1942657?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community"
-    },
     {
       "id": "chamber-success-luncheon-laugh-it-off-harnessing-humor-in-life-work-2026-10-07",
       "title": "Success Luncheon - Laugh It Off! Harnessing Humor in Life & Work",
@@ -303,6 +279,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/quarterly-prayer-breakfast-2026-1766736?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-community-career-day-at-fort-bragg-federal-credit-union-2026-10-27",
+      "title": "Career Day at Fort Bragg Federal Credit Union",
+      "start": "2026-10-27T14:00:00.000Z",
+      "end": "2026-10-28T18:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/career-day-at-fort-bragg-federal-credit-union-1950290?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community"
     },
     {
       "id": "ncmbc-agriculture-food-and-beverage-quarterly-industry-forum-2026-10-29",
@@ -656,7 +644,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 34
+      "count": 33
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
