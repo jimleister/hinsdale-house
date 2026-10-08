@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-07T17:26:40.165Z",
+  "updatedAt": "2026-10-08T17:25:00.548Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-success-luncheon-laugh-it-off-harnessing-humor-in-life-work-2026-10-07",
-      "title": "Success Luncheon - Laugh It Off! Harnessing Humor in Life & Work",
-      "start": "2026-10-07T15:30:00.000Z",
-      "end": "2026-10-07T17:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-laugh-it-off-harnessing-humor-in-life-work-1687872?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
     {
       "id": "chamber-community-real-estate-investing-masterclass-for-real-estate-professionals-2026-10-08",
       "title": "Real Estate Investing Masterclass for Real Estate Professionals",
@@ -377,6 +365,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
+      "title": "Innovation and Technology Quarterly Industry Forum",
+      "start": "2026-11-12T15:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
       "start": "2026-11-14T18:00:00-05:00",
@@ -644,7 +644,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 33
+      "count": 32
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
@@ -664,7 +664,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 4
+      "count": 5
     },
     {
       "source": "Cool Spring Downtown District",
