@@ -1,20 +1,7 @@
 {
-  "updatedAt": "2026-10-08T17:25:00.548Z",
+  "updatedAt": "2026-10-09T17:00:26.267Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-community-real-estate-investing-masterclass-for-real-estate-professionals-2026-10-08",
-      "title": "Real Estate Investing Masterclass for Real Estate Professionals",
-      "start": "2026-10-08T22:00:00.000Z",
-      "end": "2026-10-09T00:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/real-estate-investing-masterclass-for-real-estate-professionals-1938655?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community",
-      "registrationNote": "Registration or advance confirmation may be required."
-    },
     {
       "id": "distinctly-dogwood-nights-oktoberfest-2026-10-10",
       "title": "Dogwood Nights: Oktoberfest",
@@ -649,7 +636,7 @@
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "updated",
-      "count": 4
+      "count": 3
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
