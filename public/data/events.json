@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-09T17:00:26.267Z",
+  "updatedAt": "2026-10-10T15:53:15.356Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "distinctly-dogwood-nights-oktoberfest-2026-10-10",
-      "title": "Dogwood Nights: Oktoberfest",
-      "start": "2026-10-10T00:00:00.000Z",
-      "end": "2026-10-10T00:00:00.000Z",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/dogwood-nights%3a-oktoberfest/30347/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "dogwood-oktoberfest-2026",
       "title": "Dogwood Nights: Oktoberfest Street Party",
