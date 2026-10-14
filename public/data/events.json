@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-13T17:36:56.163Z",
+  "updatedAt": "2026-10-14T15:11:17.652Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-chamber-chatter-toastmasters-2026-10-13",
-      "title": "CHAMBER CHATTER - TOASTMASTERS",
-      "start": "2026-10-13T11:30:00.000Z",
-      "end": "2026-10-13T13:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689082?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
     {
       "id": "chamber-chamber-coffee-club-2026-10-15",
       "title": "Chamber Coffee Club",
@@ -582,7 +570,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 33
+      "count": 32
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
