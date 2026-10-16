@@ -1,43 +1,7 @@
 {
-  "updatedAt": "2026-10-15T15:04:35.270Z",
+  "updatedAt": "2026-10-16T14:54:22.753Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-chamber-coffee-club-2026-10-15",
-      "title": "Chamber Coffee Club",
-      "start": "2026-10-15T11:30:00.000Z",
-      "end": "2026-10-15T13:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-coffee-club-1671527?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "ncmbc-same-omaha-post-apex-accelerator-virtual-matchmaking-event-october-15-2026-2026-10-15",
-      "title": "SAME Omaha Post / APEX Accelerator – Virtual Matchmaking Event – October 15, 2026",
-      "start": "2026-10-15T13:00:00.000Z",
-      "end": "2026-10-15T20:00:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/same-omaha-post-apex-accelerator-virtual-matchmaking-event-october-15-2026/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
-    {
-      "id": "ncmbc-using-your-past-work-performance-to-win-government-trust-online-2026-10-15",
-      "title": "Using Your Past Work Performance to Win Government Trust (Online)",
-      "start": "2026-10-15T14:00:00.000Z",
-      "end": "2026-10-15T15:30:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/using-your-past-work-performance-to-win-government-trust-online/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
     {
       "id": "distinctly-homecoming-methodist-university-football-2026-10-17",
       "title": "Homecoming: Methodist University Football",
@@ -289,6 +253,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689083?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
+      "title": "Innovation and Technology Quarterly Industry Forum",
+      "start": "2026-11-12T15:00:00.000Z",
+      "end": "2026-11-12T16:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "dogwood-sock-hop-2026",
@@ -570,7 +546,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 32
+      "count": 31
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
@@ -590,7 +566,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 3
+      "count": 2
     },
     {
       "source": "Cool Spring Downtown District",
