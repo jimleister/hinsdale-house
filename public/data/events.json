@@ -1,32 +1,7 @@
 {
-  "updatedAt": "2026-10-17T13:45:30.670Z",
+  "updatedAt": "2026-10-18T14:02:31.424Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "fsu-athletics-fayetteville-state-football-vs-elizabeth-city-state-2026-10-17",
-      "title": "Fayetteville State Football vs. Elizabeth City State",
-      "start": "2026-10-17T17:30:00.000Z",
-      "end": "2026-10-17T17:30:00.000Z",
-      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Sports",
-      "url": "https://fsubroncos.com/sports/football/schedule/2026",
-      "source": "Fayetteville State Athletics",
-      "sourceKey": "fsu-athletics"
-    },
-    {
-      "id": "marksmen-opening-night-2026",
-      "title": "Fayetteville Marksmen Opening Night vs. Roanoke",
-      "start": "2026-10-17T18:00:00-04:00",
-      "venue": "Crown Coliseum",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://marksmenhockey.com/schedule/calendar/",
-      "source": "Fayetteville Marksmen",
-      "sourceKey": "manual",
-      "free": false,
-      "featured": true
-    },
     {
       "id": "chamber-chamber-chatter-toastmasters-2026-10-20",
       "title": "CHAMBER CHATTER - TOASTMASTERS",
@@ -52,6 +27,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "distinctly-halloween-at-the-bootanical-garden-dog-day-2026-10-22",
+      "title": "Halloween at the BOOtanical Garden: Dog Day!",
+      "start": "2026-10-22T00:00:00.000Z",
+      "end": "2026-10-22T00:00:00.000Z",
+      "venue": "Cape Fear Botanical Garden",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/halloween-at-the-bootanical-garden%3a-dog-day!/31774/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "chamber-hispanic-business-league-2026-10-22",
       "title": "Hispanic Business League",
       "start": "2026-10-22T12:00:00.000Z",
@@ -62,6 +49,30 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839761?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "distinctly-halloween-at-the-bootanical-garden-2026-10-23",
+      "title": "Halloween at the BOOtanical Garden",
+      "start": "2026-10-23T00:00:00.000Z",
+      "end": "2026-10-25T00:00:00.000Z",
+      "venue": "Cape Fear Botanical Garden",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/halloween-at-the-bootanical-garden/31773/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-2026-october-4th-friday-district-fall-fest-2026-10-23",
+      "title": "2026 October 4th Friday: District Fall Fest",
+      "start": "2026-10-23T00:00:00.000Z",
+      "end": "2026-10-23T00:00:00.000Z",
+      "venue": "Cool Spring Downtown District",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/2026-october-4th-friday%3a-district-fall-fest/31986/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "chamber-community-walk-to-end-alzheimer-s-fayetteville-2026-10-24",
@@ -439,7 +450,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 5
+      "count": 6
     },
     {
       "source": "City of Fayetteville",
