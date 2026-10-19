@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:02:31.424Z",
+  "updatedAt": "2026-10-19T16:59:34.004Z",
   "horizonDays": 180,
   "events": [
     {
@@ -71,6 +71,18 @@
       "area": "nearby",
       "category": "Festivals",
       "url": "https://www.distinctlyfayettevillenc.com/event/2026-october-4th-friday%3a-district-fall-fest/31986/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-4th-friday-2026-2026-10-23",
+      "title": "4th Friday 2026",
+      "start": "2026-10-23T00:00:00.000Z",
+      "end": "2026-10-23T00:00:00.000Z",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/4th-friday-2026/30099/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -521,7 +533,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 31
+      "count": 32
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
