@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-10-21T15:18:39.063Z",
+  "updatedAt": "2026-10-22T15:19:57.503Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-success-luncheon-storytelling-in-marketing-2026-10-21",
-      "title": "Success Luncheon - Storytelling in Marketing",
-      "start": "2026-10-21T15:30:00.000Z",
-      "end": "2026-10-21T17:30:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/success-luncheon-storytelling-in-marketing-1942909?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "distinctly-halloween-at-the-bootanical-garden-dog-day-2026-10-22",
-      "title": "Halloween at the BOOtanical Garden: Dog Day!",
-      "start": "2026-10-22T00:00:00.000Z",
-      "end": "2026-10-22T00:00:00.000Z",
-      "venue": "Cape Fear Botanical Garden",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/halloween-at-the-bootanical-garden%3a-dog-day!/31774/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "chamber-hispanic-business-league-2026-10-22",
       "title": "Hispanic Business League",
@@ -170,6 +146,18 @@
       "sourceKey": "ncmbc"
     },
     {
+      "id": "chamber-community-careers-series-showing-up-standing-out-moving-forward-2026-10-30",
+      "title": "Careers Series – Showing Up | Standing Out | Moving Forward",
+      "start": "2026-10-30T22:00:00.000Z",
+      "end": "2026-10-31T00:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/careers-series-showing-up-standing-out-moving-forward-1967571?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber Community Calendar",
+      "sourceKey": "chamber-community"
+    },
+    {
       "id": "fsu-athletics-fayetteville-state-football-vs-bowie-state-2026-10-31",
       "title": "Fayetteville State Football vs. Bowie State",
       "start": "2026-10-31T17:00:00.000Z",
@@ -288,6 +276,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689123?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-joint-innovation-outpost-virtual-industry-day-2026-11-17",
+      "title": "Joint Innovation Outpost Virtual Industry Day",
+      "start": "2026-11-17T19:00:00.000Z",
+      "end": "2026-11-17T20:30:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.ncmbc.us/event/joint-innovation-outpost-virtual-industry-day/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "chamber-hispanic-business-league-2026-11-18",
@@ -456,6 +456,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689088?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "chamber-chamber-chatter-toastmasters-2027-04-20",
+      "title": "CHAMBER CHATTER - TOASTMASTERS",
+      "start": "2027-04-20T11:30:00.000Z",
+      "end": "2027-04-20T13:00:00.000Z",
+      "venue": "Greater Fayetteville area",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689128?sourceTypeId=Website",
+      "source": "Greater Fayetteville Chamber",
+      "sourceKey": "chamber"
     }
   ],
   "sources": [
@@ -533,12 +545,12 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "updated",
-      "count": 31
+      "count": 30
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
@@ -553,13 +565,12 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 2
+      "count": 3
     },
     {
       "source": "Cool Spring Downtown District",
       "state": "retained",
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 0
     }
   ]
 }
