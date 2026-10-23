@@ -1,55 +1,7 @@
 {
-  "updatedAt": "2026-10-22T15:19:57.503Z",
+  "updatedAt": "2026-10-23T15:07:54.184Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-hispanic-business-league-2026-10-22",
-      "title": "Hispanic Business League",
-      "start": "2026-10-22T12:00:00.000Z",
-      "end": "2026-10-22T13:30:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839761?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "distinctly-halloween-at-the-bootanical-garden-2026-10-23",
-      "title": "Halloween at the BOOtanical Garden",
-      "start": "2026-10-23T00:00:00.000Z",
-      "end": "2026-10-25T00:00:00.000Z",
-      "venue": "Cape Fear Botanical Garden",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/halloween-at-the-bootanical-garden/31773/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-2026-october-4th-friday-district-fall-fest-2026-10-23",
-      "title": "2026 October 4th Friday: District Fall Fest",
-      "start": "2026-10-23T00:00:00.000Z",
-      "end": "2026-10-23T00:00:00.000Z",
-      "venue": "Cool Spring Downtown District",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/2026-october-4th-friday%3a-district-fall-fest/31986/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-4th-friday-2026-2026-10-23",
-      "title": "4th Friday 2026",
-      "start": "2026-10-23T00:00:00.000Z",
-      "end": "2026-10-23T00:00:00.000Z",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/4th-friday-2026/30099/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "chamber-community-walk-to-end-alzheimer-s-fayetteville-2026-10-24",
       "title": "Walk to End Alzheimer's - Fayetteville",
@@ -276,18 +228,6 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689123?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
-    },
-    {
-      "id": "ncmbc-joint-innovation-outpost-virtual-industry-day-2026-11-17",
-      "title": "Joint Innovation Outpost Virtual Industry Day",
-      "start": "2026-11-17T19:00:00.000Z",
-      "end": "2026-11-17T20:30:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.ncmbc.us/event/joint-innovation-outpost-virtual-industry-day/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
     },
     {
       "id": "chamber-hispanic-business-league-2026-11-18",
@@ -544,13 +484,15 @@
     },
     {
       "source": "Greater Fayetteville Chamber",
-      "state": "updated",
-      "count": 30
+      "state": "retained",
+      "count": 18,
+      "error": "403 Forbidden"
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
-      "state": "updated",
-      "count": 4
+      "state": "retained",
+      "count": 4,
+      "error": "403 Forbidden"
     },
     {
       "source": "FSU Entrepreneur & Business HUB",
@@ -565,7 +507,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 3
+      "count": 2
     },
     {
       "source": "Cool Spring Downtown District",
