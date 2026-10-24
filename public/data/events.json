@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T15:07:54.184Z",
+  "updatedAt": "2026-10-24T14:01:40.244Z",
   "horizonDays": 180,
   "events": [
     {
@@ -84,6 +84,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/career-day-at-fort-bragg-federal-credit-union-1950290?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber Community Calendar",
       "sourceKey": "chamber-community"
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-haunted-hockey-night-2026-10-29",
+      "title": "Fayetteville Marksmen: Haunted Hockey Night",
+      "start": "2026-10-29T00:00:00.000Z",
+      "end": "2026-10-29T00:00:00.000Z",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-haunted-hockey-night/31543/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "ncmbc-agriculture-food-and-beverage-quarterly-industry-forum-2026-10-29",
@@ -485,7 +497,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "retained",
-      "count": 18,
+      "count": 17,
       "error": "403 Forbidden"
     },
     {
