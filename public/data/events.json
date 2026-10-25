@@ -1,66 +1,7 @@
 {
-  "updatedAt": "2026-10-24T14:01:40.244Z",
+  "updatedAt": "2026-10-25T14:24:32.727Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-community-walk-to-end-alzheimer-s-fayetteville-2026-10-24",
-      "title": "Walk to End Alzheimer's - Fayetteville",
-      "start": "2026-10-24T13:00:00.000Z",
-      "end": "2026-10-24T16:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/walk-to-end-alzheimer-s-fayetteville-1900975?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community"
-    },
-    {
-      "id": "chamber-community-trick-or-treat-2026-10-24",
-      "title": "Trick or Treat",
-      "start": "2026-10-24T20:00:00.000Z",
-      "end": "2026-10-24T22:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/trick-or-treat-1941838?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community"
-    },
-    {
-      "id": "dogwood-battle-mainstage-2026",
-      "title": "Battle for the MainStage",
-      "start": "2026-10-24T18:00:00-04:00",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Concerts & Shows",
-      "url": "https://www.thedogwoodfestival.com/2026-2027-events",
-      "source": "Fayetteville Dogwood Festival",
-      "sourceKey": "manual",
-      "featured": true
-    },
-    {
-      "id": "fsu-planetarium-death-universe-2026",
-      "title": "Death by Universe",
-      "start": "2026-10-24T19:00:00-04:00",
-      "venue": "Fayetteville State University Planetarium",
-      "area": "short-drive",
-      "category": "Family",
-      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
-      "source": "Fayetteville State Planetarium",
-      "sourceKey": "manual"
-    },
-    {
-      "id": "symphony-nosferatu-2026",
-      "title": "Nosferatu: A Symphony of Horror",
-      "start": "2026-10-24T19:30:00-04:00",
-      "venue": "Cameo Art House Theatre",
-      "area": "nearby",
-      "category": "Concerts & Shows",
-      "url": "https://www.fayettevillesymphony.org/calendar/",
-      "source": "Fayetteville Symphony Orchestra",
-      "sourceKey": "manual",
-      "featured": true
-    },
     {
       "id": "chamber-quarterly-prayer-breakfast-2026-2026-10-27",
       "title": "Quarterly Prayer Breakfast 2026",
@@ -426,7 +367,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 6
+      "count": 5
     },
     {
       "source": "City of Fayetteville",
