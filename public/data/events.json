@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T14:24:32.727Z",
+  "updatedAt": "2026-10-26T16:48:42.386Z",
   "horizonDays": 180,
   "events": [
     {
@@ -99,6 +99,18 @@
       "sourceKey": "chamber"
     },
     {
+      "id": "distinctly-59th-annual-holly-day-fair-2026-11-05",
+      "title": "59th Annual Holly Day Fair",
+      "start": "2026-11-05T00:00:00.000Z",
+      "end": "2026-11-08T00:00:00.000Z",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/59th-annual-holly-day-fair/30402/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "holly-day-fair-2026",
       "title": "Holly Day Fair",
       "start": "2026-11-05T09:00:00-05:00",
@@ -110,6 +122,18 @@
       "source": "Crown Complex",
       "sourceKey": "manual",
       "featured": false
+    },
+    {
+      "id": "distinctly-2-4-6-2-words-4-artists-6-tracks-2026-11-06",
+      "title": "2 - 4 - 6 (2 words, 4 artists, 6 tracks)",
+      "start": "2026-11-06T00:00:00.000Z",
+      "end": "2026-12-20T00:00:00.000Z",
+      "venue": "The Arts Council of Fayetteville | Cumberland County",
+      "area": "greater-fayetteville",
+      "category": "Theater & Arts",
+      "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "fsu-planetarium-space-exploration-2026",
@@ -444,7 +468,7 @@
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "retained",
-      "count": 4,
+      "count": 2,
       "error": "403 Forbidden"
     },
     {
