@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-10-27T15:54:02.855Z",
+  "updatedAt": "2026-10-28T16:40:57.483Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-quarterly-prayer-breakfast-2026-2026-10-27",
-      "title": "Quarterly Prayer Breakfast 2026",
-      "start": "2026-10-27T11:30:00.000Z",
-      "end": "2026-10-27T13:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/quarterly-prayer-breakfast-2026-1766736?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "chamber-community-career-day-at-fort-bragg-federal-credit-union-2026-10-27",
-      "title": "Career Day at Fort Bragg Federal Credit Union",
-      "start": "2026-10-27T14:00:00.000Z",
-      "end": "2026-10-28T18:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/career-day-at-fort-bragg-federal-credit-union-1950290?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community"
-    },
     {
       "id": "distinctly-fayetteville-marksmen-haunted-hockey-night-2026-10-29",
       "title": "Fayetteville Marksmen: Haunted Hockey Night",
@@ -416,7 +392,8 @@
     {
       "source": "Gilbert Theater",
       "state": "retained",
-      "count": 0
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "source": "Cape Fear Regional Theatre",
