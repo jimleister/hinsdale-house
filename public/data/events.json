@@ -1,31 +1,7 @@
 {
-  "updatedAt": "2026-10-28T16:40:57.483Z",
+  "updatedAt": "2026-10-29T16:56:36.415Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "distinctly-fayetteville-marksmen-haunted-hockey-night-2026-10-29",
-      "title": "Fayetteville Marksmen: Haunted Hockey Night",
-      "start": "2026-10-29T00:00:00.000Z",
-      "end": "2026-10-29T00:00:00.000Z",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-haunted-hockey-night/31543/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "ncmbc-agriculture-food-and-beverage-quarterly-industry-forum-2026-10-29",
-      "title": "Agriculture, Food and Beverage Quarterly Industry Forum",
-      "start": "2026-10-29T13:00:00.000Z",
-      "end": "2026-10-29T14:30:00.000Z",
-      "venue": "Online · PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/agriculture-food-and-beverage-quarterly-industry-forum-4/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
     {
       "id": "chamber-community-careers-series-showing-up-standing-out-moving-forward-2026-10-30",
       "title": "Careers Series – Showing Up | Standing Out | Moving Forward",
@@ -392,8 +368,7 @@
     {
       "source": "Gilbert Theater",
       "state": "retained",
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "count": 0
     },
     {
       "source": "Cape Fear Regional Theatre",
@@ -439,13 +414,13 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "retained",
-      "count": 17,
+      "count": 16,
       "error": "403 Forbidden"
     },
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "retained",
-      "count": 2,
+      "count": 1,
       "error": "403 Forbidden"
     },
     {
@@ -461,7 +436,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 2
+      "count": 1
     },
     {
       "source": "Cool Spring Downtown District",
