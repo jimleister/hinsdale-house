@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:56:36.415Z",
+  "updatedAt": "2026-10-30T16:42:36.479Z",
   "horizonDays": 180,
   "events": [
     {
@@ -84,6 +84,18 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-2026-veterans-day-parade-2026-11-07",
+      "title": "2026 Veterans Day Parade",
+      "start": "2026-11-07T00:00:00.000Z",
+      "end": "2026-11-07T00:00:00.000Z",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/2026-veterans-day-parade/31700/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
