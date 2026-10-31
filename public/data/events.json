@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-30T16:42:36.479Z",
+  "updatedAt": "2026-10-31T15:45:24.330Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-community-careers-series-showing-up-standing-out-moving-forward-2026-10-30",
-      "title": "Careers Series – Showing Up | Standing Out | Moving Forward",
-      "start": "2026-10-30T22:00:00.000Z",
-      "end": "2026-10-31T00:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/careers-series-showing-up-standing-out-moving-forward-1967571?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber Community Calendar",
-      "sourceKey": "chamber-community"
-    },
     {
       "id": "fsu-athletics-fayetteville-state-football-vs-bowie-state-2026-10-31",
       "title": "Fayetteville State Football vs. Bowie State",
@@ -88,18 +76,6 @@
       "sourceKey": "distinctly"
     },
     {
-      "id": "distinctly-2026-veterans-day-parade-2026-11-07",
-      "title": "2026 Veterans Day Parade",
-      "start": "2026-11-07T00:00:00.000Z",
-      "end": "2026-11-07T00:00:00.000Z",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/2026-veterans-day-parade/31700/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
       "id": "fsu-planetarium-space-exploration-2026",
       "title": "Space Exploration: Past and Future",
       "start": "2026-11-07T19:00:00-05:00",
@@ -169,6 +145,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689123?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-joint-innovation-outpost-virtual-industry-day-2026-11-17",
+      "title": "Joint Innovation Outpost Virtual Industry Day",
+      "start": "2026-11-17T19:00:00.000Z",
+      "end": "2026-11-17T20:30:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.ncmbc.us/event/joint-innovation-outpost-virtual-industry-day/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "chamber-hispanic-business-league-2026-11-18",
@@ -355,7 +343,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 5
+      "count": 4
     },
     {
       "source": "City of Fayetteville",
@@ -448,7 +436,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 1
+      "count": 2
     },
     {
       "source": "Cool Spring Downtown District",
