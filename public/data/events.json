@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-31T15:45:24.330Z",
+  "updatedAt": "2026-11-01T16:49:29.939Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "fsu-athletics-fayetteville-state-football-vs-bowie-state-2026-10-31",
-      "title": "Fayetteville State Football vs. Bowie State",
-      "start": "2026-10-31T17:00:00.000Z",
-      "end": "2026-10-31T17:00:00.000Z",
-      "venue": "Fayetteville, NC · Fayetteville, NC PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Sports",
-      "url": "https://fsubroncos.com/sports/football/schedule/2026",
-      "source": "Fayetteville State Athletics",
-      "sourceKey": "fsu-athletics"
-    },
     {
       "id": "chamber-business-networking-breakfast-2026-2026-11-03",
       "title": "Business Networking Breakfast 2026",
@@ -72,6 +60,18 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-2026-veterans-day-parade-2026-11-07",
+      "title": "2026 Veterans Day Parade",
+      "start": "2026-11-07T00:00:00.000Z",
+      "end": "2026-11-07T00:00:00.000Z",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/2026-veterans-day-parade/31700/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -343,7 +343,7 @@
     {
       "source": "DistiNCtly Fayetteville",
       "state": "updated",
-      "count": 4
+      "count": 5
     },
     {
       "source": "City of Fayetteville",
@@ -420,7 +420,7 @@
     {
       "source": "Greater Fayetteville Chamber Community Calendar",
       "state": "retained",
-      "count": 1,
+      "count": 0,
       "error": "403 Forbidden"
     },
     {
