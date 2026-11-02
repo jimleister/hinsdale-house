@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:49:29.939Z",
+  "updatedAt": "2026-11-02T20:23:03.389Z",
   "horizonDays": 180,
   "events": [
     {
@@ -72,6 +72,18 @@
       "area": "nearby",
       "category": "Festivals",
       "url": "https://www.distinctlyfayettevillenc.com/event/2026-veterans-day-parade/31700/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-the-grilled-cheese-festival-2026-11-07",
+      "title": "The Grilled Cheese Festival",
+      "start": "2026-11-07T00:00:00.000Z",
+      "end": "2026-11-07T00:00:00.000Z",
+      "venue": "Dirtbag Ales Brewery & Taproom",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/the-grilled-cheese-festival/31867/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
