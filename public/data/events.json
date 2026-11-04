@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-11-03T17:52:24.422Z",
+  "updatedAt": "2026-11-04T18:00:07.555Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "chamber-business-networking-breakfast-2026-2026-11-03",
-      "title": "Business Networking Breakfast 2026",
-      "start": "2026-11-03T12:30:00.000Z",
-      "end": "2026-11-03T14:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1881091?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
     {
       "id": "chamber-success-luncheon-the-content-you-don-t-make-can-t-work-for-you-2026-11-04",
       "title": "Success Luncheon - The Content You Don't Make Can't Work for You",
@@ -181,6 +169,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839762?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-introduction-to-federal-contracting-2026-11-18",
+      "title": "Introduction to Federal Contracting",
+      "start": "2026-11-18T14:00:00.000Z",
+      "end": "2026-11-18T15:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/introduction-to-federal-contracting-7/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "fsu-planetarium-solar-system-2026",
@@ -448,7 +448,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 2
+      "count": 3
     },
     {
       "source": "Cool Spring Downtown District",
