@@ -20,5 +20,6 @@ export function eventIsUpcoming(event, now, horizon) {
   // Include every day of an exhibit/fair, and expire after its published end.
   const last = event.end || event.start;
   const end = new Date(/^\d{4}-\d{2}-\d{2}$/.test(last) ? `${last}T23:59:59` : last);
+  if (!event.end) end.setHours(23, 59, 59, 999);
   return !Number.isNaN(start.valueOf()) && !Number.isNaN(end.valueOf()) && end >= now && start <= horizon;
 }
