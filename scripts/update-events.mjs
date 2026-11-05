@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { normalizeEventDate, applyEventOverrides, eventIsUpcoming } from './event-dates.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -137,8 +138,9 @@ function normalize(raw, source) {
   const venue = cleanText(locationText(raw.location));
   let title = decodeHtml(raw.name);
   if (source.key === 'fsu-athletics') title = title.replace(/^Fayetteville State University\s+Vs\s+/i, 'Fayetteville State Football vs. ');
-  const start = raw.startDate ? new Date(raw.startDate) : null;
-  if (!title || !start || Number.isNaN(start.valueOf())) return null;
+  const start = normalizeEventDate(raw.startDate, source.key);
+  const end = normalizeEventDate(raw.endDate, source.key);
+  if (!title || !start) return null;
   const text = `${title} ${venue} ${decodeHtml(raw.description)}`.toLowerCase();
   if (excludedTerms.some(term => text.includes(term))) return null;
   if (source.key === 'fort-bragg' && !/open to the public|public event|special event/.test(text)) return null;
@@ -150,10 +152,10 @@ function normalize(raw, source) {
   if (!approvedVenueTerms.some(term => text.includes(term)) && !visitorTerms.some(term => text.includes(term))) return null;
   const url = raw.url || raw.sameAs || source.url;
   return {
-    id: `${source.key}-${title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${start.toISOString().slice(0, 10)}`,
+    id: `${source.key}-${title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${start.slice(0, 10)}`,
     title,
-    start: start.toISOString(),
-    ...(raw.endDate ? { end: new Date(raw.endDate).toISOString() } : {}),
+    start,
+    ...(end ? { end } : {}),
     venue: venue || 'Fayetteville',
     area: areaFor(venue),
     category: categoryFor(`${raw['@type'] || ''} ${text}`),
@@ -199,11 +201,11 @@ for (const { source, fresh, error } of sourceResults) {
   }
 }
 
-collected.push(...overrides);
+const candidates = applyEventOverrides(collected, overrides);
 const byKey = new Map();
-for (const event of collected) {
-  const start = new Date(event.start);
-  if (Number.isNaN(start.valueOf()) || start < new Date(now.toDateString()) || start > horizon) continue;
+for (const original of candidates) {
+  const event = { ...original, start: normalizeEventDate(original.start, original.sourceKey), ...(original.end ? { end: normalizeEventDate(original.end, original.sourceKey) } : {}) };
+  if (!event.start || !eventIsUpcoming(event, now, horizon)) continue;
   const key = `${event.title.toLowerCase().replace(/[^a-z0-9]/g, '')}|${event.start.slice(0, 10)}`;
   const current = byKey.get(key);
   if (!current || event.sourceKey === 'manual') byKey.set(key, event);
