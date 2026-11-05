@@ -6,8 +6,8 @@ if (eventsRoot) {
   const limit = Number(eventsRoot.dataset.limit || 0);
   let events = [];
 
-  const dateFormat = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  const timeFormat = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit' });
+  const dateFormat = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'America/New_York' });
+  const timeFormat = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', timeZoneName: 'short' });
   const escapeHtml = value => String(value || '').replace(/[&<>'"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]);
   const safeUrl = value => {
     try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : '#'; }
@@ -32,11 +32,16 @@ if (eventsRoot) {
       return;
     }
     list.innerHTML = visible.map(event => {
-      const start = new Date(event.start);
+      const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(event.start);
+      // Anchor calendar dates at local noon; they are not midnight UTC instants.
+      const start = new Date(dateOnly ? `${event.start}T12:00:00-05:00` : event.start);
+      const end = event.end && new Date(dateOnly ? `${event.end.slice(0, 10)}T12:00:00-05:00` : event.end);
+      const dateLabel = dateFormat.format(start) + (end && dateFormat.format(end) !== dateFormat.format(start) ? ` – ${dateFormat.format(end)}` : '');
+      const timeLabel = dateOnly ? 'See source for hours' : timeFormat.format(start) + (end && dateFormat.format(end) === dateFormat.format(start) ? ` – ${timeFormat.format(end)}` : '');
       const areaLabels = { nearby: 'Haymount & Downtown', 'short-drive': 'Worth the short drive', 'greater-fayetteville': 'Greater Fayetteville' };
       const area = areaLabels[event.area] || 'Greater Fayetteville';
       return `<article class="event-card">
-        <div class="event-date"><strong>${dateFormat.format(start)}</strong><span>${timeFormat.format(start)}</span></div>
+        <div class="event-date"><strong>${dateLabel}</strong><span>${timeLabel}</span></div>
         <div><div class="event-tags"><span>${escapeHtml(area)}</span><span>${escapeHtml(event.category)}</span>${event.free === true ? '<span>Free</span>' : ''}</div>
         <h3>${escapeHtml(event.title)}</h3><p>${escapeHtml(event.venue)}</p>${event.accessNote ? `<p class="event-access">${escapeHtml(event.accessNote)}</p>` : ''}${event.registrationNote ? `<p class="event-access">${escapeHtml(event.registrationNote)}</p>` : ''}<a href="${safeUrl(event.url)}" rel="noopener">Official details →</a></div>
       </article>`;

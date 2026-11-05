@@ -13,12 +13,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Check event dates and rendering
+        run: node --test scripts/event-dates.test.mjs
       - name: Install project tooling
         run: npm install
       - name: Audit project dependencies
         run: npm audit --audit-level=high
       - name: Validate HTML
-        run: npx --yes html-validate@10.4.0 'public/**/*.html'
+        run: |
+          mkdir -p /tmp/hinsdale-html-tool
+          npm exec --prefix /tmp/hinsdale-html-tool --yes --package=html-validate@10.4.0 -- html-validate 'public/**/*.html'
       - name: Start local site
         run: python3 -m http.server 4173 --directory public >/tmp/hinsdale-server.log 2>&1 &
       - name: Wait for local site

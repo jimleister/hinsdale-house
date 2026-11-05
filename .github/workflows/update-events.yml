@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Check event dates and rendering
+        run: node --test scripts/event-dates.test.mjs
       - name: Refresh approved event sources
         run: node scripts/update-events.mjs
       - name: Commit event changes
