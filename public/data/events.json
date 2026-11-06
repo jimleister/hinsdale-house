@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-11-05T18:03:06.624Z",
+  "updatedAt": "2026-11-06T17:31:30.320Z",
   "horizonDays": 180,
   "events": [
     {
+      "id": "distinctly-18th-annual-field-of-honor-2026-09-11",
+      "title": "18th Annual Field of Honor",
+      "start": "2026-09-11",
+      "end": "2026-11-13",
+      "venue": "U.S. Army Airborne & Special Operations Museum",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/18th-annual-field-of-honor/30090/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-59th-annual-holly-day-fair-2026-11-05",
+      "title": "59th Annual Holly Day Fair",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/59th-annual-holly-day-fair/30402/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "holly-day-fair-2026",
       "title": "Holly Day Fair",
-      "start": "2026-11-05T09:00:00-05:00",
-      "end": "2026-11-08T17:00:00-05:00",
+      "start": "2026-11-05T14:00:00.000Z",
+      "end": "2026-11-08T22:00:00.000Z",
       "venue": "Crown Expo Center",
       "area": "short-drive",
       "category": "Festivals",
@@ -30,7 +54,7 @@
     {
       "id": "verified-2026-veterans-day-parade-2026-11-07",
       "title": "2026 Veterans Day Parade",
-      "start": "2026-11-07T10:00:00-05:00",
+      "start": "2026-11-07T15:00:00.000Z",
       "venue": "Downtown Fayetteville",
       "area": "nearby",
       "category": "Festivals",
@@ -44,7 +68,7 @@
     {
       "id": "verified-the-grilled-cheese-festival-2026-11-07",
       "title": "The Grilled Cheese Festival",
-      "start": "2026-11-07T13:00:00-05:00",
+      "start": "2026-11-07T18:00:00.000Z",
       "venue": "Dirtbag Ales Brewery & Taproom",
       "area": "greater-fayetteville",
       "category": "Festivals",
@@ -54,12 +78,12 @@
       "replacesId": "distinctly-the-grilled-cheese-festival-2026-11-07",
       "verifiedAt": "2026-11-05",
       "verificationUrl": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/2nd-annual-grilled-cheese-festival-fundraiser-1714765?sourceTypeId=Website",
-      "end": "2026-11-07T17:00:00-05:00"
+      "end": "2026-11-07T22:00:00.000Z"
     },
     {
       "id": "fsu-planetarium-space-exploration-2026",
       "title": "Space Exploration: Past and Future",
-      "start": "2026-11-07T19:00:00-05:00",
+      "start": "2026-11-08T00:00:00.000Z",
       "venue": "Fayetteville State University Planetarium",
       "area": "short-drive",
       "category": "Family",
@@ -84,7 +108,7 @@
       "title": "Innovation and Technology Quarterly Industry Forum",
       "start": "2026-11-12T15:00:00.000Z",
       "end": "2026-11-12T16:30:00.000Z",
-      "venue": "Online \u00b7 PostalAddress",
+      "venue": "Online · PostalAddress",
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
@@ -94,7 +118,7 @@
     {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
-      "start": "2026-11-14T18:00:00-05:00",
+      "start": "2026-11-14T23:00:00.000Z",
       "venue": "Downtown Fayetteville",
       "area": "nearby",
       "category": "Festivals",
@@ -107,7 +131,7 @@
     {
       "id": "symphony-brahms-2026",
       "title": "Dirk Meyer Conducts Brahms 1",
-      "start": "2026-11-14T19:30:00-05:00",
+      "start": "2026-11-15T00:30:00.000Z",
       "venue": "Methodist University",
       "area": "short-drive",
       "category": "Concerts & Shows",
@@ -156,7 +180,7 @@
       "title": "Introduction to Federal Contracting",
       "start": "2026-11-18T14:00:00.000Z",
       "end": "2026-11-18T15:30:00.000Z",
-      "venue": "Online \u00b7 PostalAddress",
+      "venue": "Online · PostalAddress",
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://www.ncmbc.us/event/introduction-to-federal-contracting-7/",
@@ -166,7 +190,7 @@
     {
       "id": "fsu-planetarium-solar-system-2026",
       "title": "Magical Solar System Tour",
-      "start": "2026-11-21T19:00:00-05:00",
+      "start": "2026-11-22T00:00:00.000Z",
       "venue": "Fayetteville State University Planetarium",
       "area": "short-drive",
       "category": "Family",
@@ -189,7 +213,7 @@
     {
       "id": "fsu-planetarium-telescopes-2026",
       "title": "All About Telescopes",
-      "start": "2026-12-05T19:00:00-05:00",
+      "start": "2026-12-06T00:00:00.000Z",
       "venue": "Fayetteville State University Planetarium",
       "area": "short-drive",
       "category": "Family",
@@ -212,8 +236,8 @@
     {
       "id": "disney-on-ice-2026",
       "title": "Disney On Ice Presents Spotlight Magic",
-      "start": "2026-12-10T19:00:00-05:00",
-      "end": "2026-12-13T17:00:00-05:00",
+      "start": "2026-12-11T00:00:00.000Z",
+      "end": "2026-12-13T22:00:00.000Z",
       "venue": "Crown Coliseum",
       "area": "short-drive",
       "category": "Family",
@@ -407,7 +431,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "retained",
-      "count": 15,
+      "count": 14,
       "error": "403 Forbidden"
     },
     {
