@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:28:31.629Z",
+  "updatedAt": "2026-11-08T16:41:40.715Z",
   "horizonDays": 180,
   "events": [
     {
@@ -52,44 +52,16 @@
       "sourceKey": "distinctly"
     },
     {
-      "id": "verified-2026-veterans-day-parade-2026-11-07",
-      "title": "2026 Veterans Day Parade",
-      "start": "2026-11-07T15:00:00.000Z",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://business.faybiz.com/events/details/veterans-day-parade-51428",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "manual",
-      "replacesId": "distinctly-2026-veterans-day-parade-2026-11-07",
-      "verifiedAt": "2026-11-05",
-      "verificationUrl": "https://business.faybiz.com/events/details/veterans-day-parade-51428"
-    },
-    {
-      "id": "verified-the-grilled-cheese-festival-2026-11-07",
-      "title": "The Grilled Cheese Festival",
-      "start": "2026-11-07T18:00:00.000Z",
-      "venue": "Dirtbag Ales Brewery & Taproom",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/2nd-annual-grilled-cheese-festival-fundraiser-1714765?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "manual",
-      "replacesId": "distinctly-the-grilled-cheese-festival-2026-11-07",
-      "verifiedAt": "2026-11-05",
-      "verificationUrl": "https://greaterfayettevillechambernc.growthzoneapp.com/community-events/Details/2nd-annual-grilled-cheese-festival-fundraiser-1714765?sourceTypeId=Website",
-      "end": "2026-11-07T22:00:00.000Z"
-    },
-    {
-      "id": "fsu-planetarium-space-exploration-2026",
-      "title": "Space Exploration: Past and Future",
-      "start": "2026-11-08T00:00:00.000Z",
-      "venue": "Fayetteville State University Planetarium",
+      "id": "distinctly-wkml-95-7-stars-and-guitars-2026-11-09",
+      "title": "WKML 95.7 Stars and Guitars",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
+      "venue": "Crown Complex",
       "area": "short-drive",
-      "category": "Family",
-      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
-      "source": "Fayetteville State Planetarium",
-      "sourceKey": "manual"
+      "category": "Concerts & Shows",
+      "url": "https://www.distinctlyfayettevillenc.com/event/wkml-95-7-stars-and-guitars/31846/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "chamber-chamber-chatter-toastmasters-2026-11-10",
@@ -114,6 +86,18 @@
       "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
       "source": "NC Military Business Center",
       "sourceKey": "ncmbc"
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-friday-the-13th-2026-11-13",
+      "title": "Fayetteville Marksmen: Friday the 13th",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-friday-the-13th/31545/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "dogwood-sock-hop-2026",
