@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T16:41:40.715Z",
+  "updatedAt": "2026-11-09T20:47:23.499Z",
   "horizonDays": 180,
   "events": [
     {
@@ -13,31 +13,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/18th-annual-field-of-honor/30090/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-59th-annual-holly-day-fair-2026-11-05",
-      "title": "59th Annual Holly Day Fair",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/59th-annual-holly-day-fair/30402/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "holly-day-fair-2026",
-      "title": "Holly Day Fair",
-      "start": "2026-11-05T14:00:00.000Z",
-      "end": "2026-11-08T22:00:00.000Z",
-      "venue": "Crown Expo Center",
-      "area": "short-drive",
-      "category": "Festivals",
-      "url": "https://www.crowncomplexnc.com/events/all",
-      "source": "Crown Complex",
-      "sourceKey": "manual",
-      "featured": false
     },
     {
       "id": "distinctly-2-4-6-2-words-4-artists-6-tracks-2026-11-06",
@@ -98,6 +73,19 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-friday-the-13th/31545/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-cards-and-collectibles-at-segra-2026-11-14",
+      "title": "Cards and Collectibles at Segra",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Segra Stadium",
+      "area": "nearby",
+      "category": "Family",
+      "url": "https://www.distinctlyfayettevillenc.com/event/cards-and-collectibles-at-segra/32126/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly",
+      "registrationNote": "Registration or advance confirmation may be required."
     },
     {
       "id": "dogwood-sock-hop-2026",
@@ -168,6 +156,18 @@
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://www.ncmbc.us/event/introduction-to-federal-contracting-7/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "ncmbc-cybersecurity-workshop-2026-11-19",
+      "title": "Cybersecurity Workshop",
+      "start": "2026-11-19T16:00:00.000Z",
+      "end": "2026-11-19T18:00:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/cybersecurity-workshop/",
       "source": "NC Military Business Center",
       "sourceKey": "ncmbc"
     },
@@ -437,7 +437,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "Cool Spring Downtown District",
