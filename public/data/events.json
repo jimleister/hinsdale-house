@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T20:47:23.499Z",
+  "updatedAt": "2026-11-10T17:53:22.320Z",
   "horizonDays": 180,
   "events": [
     {
@@ -25,30 +25,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-wkml-95-7-stars-and-guitars-2026-11-09",
-      "title": "WKML 95.7 Stars and Guitars",
-      "start": "2026-11-09",
-      "end": "2026-11-09",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Concerts & Shows",
-      "url": "https://www.distinctlyfayettevillenc.com/event/wkml-95-7-stars-and-guitars/31846/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "chamber-chamber-chatter-toastmasters-2026-11-10",
-      "title": "CHAMBER CHATTER - TOASTMASTERS",
-      "start": "2026-11-10T12:30:00.000Z",
-      "end": "2026-11-10T14:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689083?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
     },
     {
       "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
@@ -86,6 +62,18 @@
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly",
       "registrationNote": "Registration or advance confirmation may be required."
+    },
+    {
+      "id": "distinctly-vinyl-christmas-market-at-dirtbag-ales-2026-11-14",
+      "title": "Vinyl Christmas Market at Dirtbag Ales",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Dirtbag Ales",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/vinyl-christmas-market-at-dirtbag-ales/32125/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "dogwood-sock-hop-2026",
