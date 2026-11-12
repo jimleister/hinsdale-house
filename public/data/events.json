@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T17:54:52.319Z",
+  "updatedAt": "2026-11-12T18:21:05.085Z",
   "horizonDays": 180,
   "events": [
     {
@@ -25,18 +25,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "ncmbc-innovation-and-technology-quarterly-industry-forum-2026-11-12",
-      "title": "Innovation and Technology Quarterly Industry Forum",
-      "start": "2026-11-12T15:00:00.000Z",
-      "end": "2026-11-12T16:30:00.000Z",
-      "venue": "Online · PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/innovation-and-technology-quarterly-industry-forum-3/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
     },
     {
       "id": "distinctly-fayetteville-marksmen-friday-the-13th-2026-11-13",
@@ -347,8 +335,7 @@
     {
       "source": "Fayetteville Marksmen",
       "state": "retained",
-      "count": 0,
-      "error": "fetch failed"
+      "count": 0
     },
     {
       "source": "Fayetteville Dogwood Festival",
