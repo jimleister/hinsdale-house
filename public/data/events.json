@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:21:05.085Z",
+  "updatedAt": "2026-11-13T17:46:57.602Z",
   "horizonDays": 180,
   "events": [
     {
@@ -413,7 +413,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 4
+      "count": 3
     },
     {
       "source": "Cool Spring Downtown District",
