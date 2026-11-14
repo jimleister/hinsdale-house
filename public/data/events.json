@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-11-13T17:46:57.602Z",
+  "updatedAt": "2026-11-14T16:37:25.872Z",
   "horizonDays": 180,
   "events": [
-    {
-      "id": "distinctly-18th-annual-field-of-honor-2026-09-11",
-      "title": "18th Annual Field of Honor",
-      "start": "2026-09-11",
-      "end": "2026-11-13",
-      "venue": "U.S. Army Airborne & Special Operations Museum",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/18th-annual-field-of-honor/30090/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
     {
       "id": "distinctly-2-4-6-2-words-4-artists-6-tracks-2026-11-06",
       "title": "2 - 4 - 6 (2 words, 4 artists, 6 tracks)",
@@ -23,18 +11,6 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-fayetteville-marksmen-friday-the-13th-2026-11-13",
-      "title": "Fayetteville Marksmen: Friday the 13th",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-friday-the-13th/31545/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -64,6 +40,18 @@
       "sourceKey": "distinctly"
     },
     {
+      "id": "distinctly-fayetteville-marksmen-jurassic-night-2026-11-14",
+      "title": "Fayetteville Marksmen: Jurassic Night",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-jurassic-night/31546/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "dogwood-sock-hop-2026",
       "title": "Dogwood Nights: Sock Hop + Classic Cars",
       "start": "2026-11-14T23:00:00.000Z",
@@ -75,6 +63,18 @@
       "sourceKey": "manual",
       "free": true,
       "featured": true
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-salute-to-service-2026-11-15",
+      "title": "Fayetteville Marksmen: Salute to Service",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-salute-to-service/31547/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "symphony-brahms-2026",
