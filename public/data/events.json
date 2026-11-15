@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T16:37:25.872Z",
+  "updatedAt": "2026-11-15T17:13:28.492Z",
   "horizonDays": 180,
   "events": [
     {
@@ -15,56 +15,6 @@
       "sourceKey": "distinctly"
     },
     {
-      "id": "distinctly-cards-and-collectibles-at-segra-2026-11-14",
-      "title": "Cards and Collectibles at Segra",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Segra Stadium",
-      "area": "nearby",
-      "category": "Family",
-      "url": "https://www.distinctlyfayettevillenc.com/event/cards-and-collectibles-at-segra/32126/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly",
-      "registrationNote": "Registration or advance confirmation may be required."
-    },
-    {
-      "id": "distinctly-vinyl-christmas-market-at-dirtbag-ales-2026-11-14",
-      "title": "Vinyl Christmas Market at Dirtbag Ales",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Dirtbag Ales",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.distinctlyfayettevillenc.com/event/vinyl-christmas-market-at-dirtbag-ales/32125/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-fayetteville-marksmen-jurassic-night-2026-11-14",
-      "title": "Fayetteville Marksmen: Jurassic Night",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-jurassic-night/31546/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "dogwood-sock-hop-2026",
-      "title": "Dogwood Nights: Sock Hop + Classic Cars",
-      "start": "2026-11-14T23:00:00.000Z",
-      "venue": "Downtown Fayetteville",
-      "area": "nearby",
-      "category": "Festivals",
-      "url": "https://www.thedogwoodfestival.com/2026-2027-events",
-      "source": "Fayetteville Dogwood Festival",
-      "sourceKey": "manual",
-      "free": true,
-      "featured": true
-    },
-    {
       "id": "distinctly-fayetteville-marksmen-salute-to-service-2026-11-15",
       "title": "Fayetteville Marksmen: Salute to Service",
       "start": "2026-11-15",
@@ -75,17 +25,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-salute-to-service/31547/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "symphony-brahms-2026",
-      "title": "Dirk Meyer Conducts Brahms 1",
-      "start": "2026-11-15T00:30:00.000Z",
-      "venue": "Methodist University",
-      "area": "short-drive",
-      "category": "Concerts & Shows",
-      "url": "https://www.fayettevillesymphony.org/calendar/",
-      "source": "Fayetteville Symphony Orchestra",
-      "sourceKey": "manual"
     },
     {
       "id": "chamber-chamber-chatter-toastmasters-2026-11-17",
@@ -148,6 +87,18 @@
       "sourceKey": "ncmbc"
     },
     {
+      "id": "distinctly-the-nutcracker-with-a-live-orchestra-2026-11-20",
+      "title": "The Nutcracker with a Live Orchestra",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Concerts & Shows",
+      "url": "https://www.distinctlyfayettevillenc.com/event/the-nutcracker-with-a-live-orchestra/30072/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
       "id": "fsu-planetarium-solar-system-2026",
       "title": "Magical Solar System Tour",
       "start": "2026-11-22T00:00:00.000Z",
@@ -157,6 +108,30 @@
       "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
       "source": "Fayetteville State Planetarium",
       "sourceKey": "manual"
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-whiteout-wednesday-2026-11-25",
+      "title": "Fayetteville Marksmen: Whiteout Wednesday",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-whiteout-wednesday/31549/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-27th-annual-a-dickens-holiday-2026-11-27",
+      "title": "27th Annual A Dickens Holiday",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "venue": "Downtown Fayetteville",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/27th-annual-a-dickens-holiday/30100/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
     },
     {
       "id": "chamber-business-networking-breakfast-2026-2026-12-01",
