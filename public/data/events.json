@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:13:28.492Z",
+  "updatedAt": "2026-11-16T20:30:59.986Z",
   "horizonDays": 180,
   "events": [
     {
@@ -11,18 +11,6 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-fayetteville-marksmen-salute-to-service-2026-11-15",
-      "title": "Fayetteville Marksmen: Salute to Service",
-      "start": "2026-11-15",
-      "end": "2026-11-15",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-salute-to-service/31547/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -130,6 +118,18 @@
       "area": "nearby",
       "category": "Festivals",
       "url": "https://www.distinctlyfayettevillenc.com/event/27th-annual-a-dickens-holiday/30100/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-fayetteville-holiday-lights-2026-11-27",
+      "title": "Fayetteville Holiday Lights",
+      "start": "2026-11-27",
+      "end": "2026-12-31",
+      "venue": "Segra Stadium",
+      "area": "nearby",
+      "category": "Festivals",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-holiday-lights/28968/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
