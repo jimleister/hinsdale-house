@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:30:59.986Z",
+  "updatedAt": "2026-11-17T19:11:47.586Z",
   "horizonDays": 180,
   "events": [
     {
@@ -13,18 +13,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "chamber-chamber-chatter-toastmasters-2026-11-17",
-      "title": "CHAMBER CHATTER - TOASTMASTERS",
-      "start": "2026-11-17T12:30:00.000Z",
-      "end": "2026-11-17T14:00:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689123?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
     },
     {
       "id": "ncmbc-joint-innovation-outpost-virtual-industry-day-2026-11-17",
@@ -144,6 +132,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/business-networking-breakfast-2026-1881092?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-textiles-and-tactical-equipment-industry-forum-2026-12-02",
+      "title": "Textiles and Tactical Equipment Industry Forum",
+      "start": "2026-12-02T14:00:00.000Z",
+      "end": "2026-12-02T15:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/textiles-and-tactical-equipment-industry-forum/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "fsu-planetarium-telescopes-2026",
@@ -388,7 +388,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 3
+      "count": 4
     },
     {
       "source": "Cool Spring Downtown District",
