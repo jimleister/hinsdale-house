@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:11:47.586Z",
+  "updatedAt": "2026-11-18T18:52:14.155Z",
   "horizonDays": 180,
   "events": [
     {
@@ -13,42 +13,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "ncmbc-joint-innovation-outpost-virtual-industry-day-2026-11-17",
-      "title": "Joint Innovation Outpost Virtual Industry Day",
-      "start": "2026-11-17T19:00:00.000Z",
-      "end": "2026-11-17T20:30:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Festivals",
-      "url": "https://www.ncmbc.us/event/joint-innovation-outpost-virtual-industry-day/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
-    },
-    {
-      "id": "chamber-hispanic-business-league-2026-11-18",
-      "title": "Hispanic Business League",
-      "start": "2026-11-18T13:00:00.000Z",
-      "end": "2026-11-18T14:30:00.000Z",
-      "venue": "Greater Fayetteville area",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/hispanic-business-league-1839762?sourceTypeId=Website",
-      "source": "Greater Fayetteville Chamber",
-      "sourceKey": "chamber"
-    },
-    {
-      "id": "ncmbc-introduction-to-federal-contracting-2026-11-18",
-      "title": "Introduction to Federal Contracting",
-      "start": "2026-11-18T14:00:00.000Z",
-      "end": "2026-11-18T15:30:00.000Z",
-      "venue": "Online · PostalAddress",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/introduction-to-federal-contracting-7/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
     },
     {
       "id": "ncmbc-cybersecurity-workshop-2026-11-19",
@@ -142,6 +106,30 @@
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://www.ncmbc.us/event/textiles-and-tactical-equipment-industry-forum/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "ncmbc-introduction-to-federal-contracting-for-small-business-owners-online-2026-12-02",
+      "title": "Introduction to Federal Contracting for Small Business Owners – Online",
+      "start": "2026-12-02T17:00:00.000Z",
+      "end": "2026-12-02T18:00:00.000Z",
+      "venue": "Fayetteville",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/introduction-to-federal-contracting-for-small-business-owners-online/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "ncmbc-business-insurance-101-webinar-2026-12-03",
+      "title": "Business Insurance 101 Webinar",
+      "start": "2026-12-03T15:00:00.000Z",
+      "end": "2026-12-03T16:00:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Festivals",
+      "url": "https://www.ncmbc.us/event/business-insurance-101-webinar-5/",
       "source": "NC Military Business Center",
       "sourceKey": "ncmbc"
     },
@@ -366,7 +354,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "retained",
-      "count": 13,
+      "count": 12,
       "error": "403 Forbidden"
     },
     {
@@ -388,7 +376,7 @@
     {
       "source": "NC Military Business Center",
       "state": "updated",
-      "count": 4
+      "count": 5
     },
     {
       "source": "Cool Spring Downtown District",
