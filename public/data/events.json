@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:52:14.155Z",
+  "updatedAt": "2026-11-19T19:00:05.644Z",
   "horizonDays": 180,
   "events": [
     {
@@ -13,18 +13,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "ncmbc-cybersecurity-workshop-2026-11-19",
-      "title": "Cybersecurity Workshop",
-      "start": "2026-11-19T16:00:00.000Z",
-      "end": "2026-11-19T18:00:00.000Z",
-      "venue": "Fayetteville",
-      "area": "greater-fayetteville",
-      "category": "Professional",
-      "url": "https://www.ncmbc.us/event/cybersecurity-workshop/",
-      "source": "NC Military Business Center",
-      "sourceKey": "ncmbc"
     },
     {
       "id": "distinctly-the-nutcracker-with-a-live-orchestra-2026-11-20",
@@ -155,6 +143,18 @@
       "url": "https://greaterfayettevillechambernc.growthzoneapp.com/events/Details/chamber-chatter-toastmasters-1689084?sourceTypeId=Website",
       "source": "Greater Fayetteville Chamber",
       "sourceKey": "chamber"
+    },
+    {
+      "id": "ncmbc-combat-systems-quarterly-industry-forum-2026-12-08",
+      "title": "Combat Systems Quarterly Industry Forum",
+      "start": "2026-12-08T14:00:00.000Z",
+      "end": "2026-12-08T15:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/combat-systems-quarterly-industry-forum-3/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
     },
     {
       "id": "disney-on-ice-2026",
@@ -354,7 +354,7 @@
     {
       "source": "Greater Fayetteville Chamber",
       "state": "retained",
-      "count": 12,
+      "count": 11,
       "error": "403 Forbidden"
     },
     {
