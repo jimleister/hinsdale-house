@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T19:00:05.644Z",
+  "updatedAt": "2026-11-20T18:37:35.472Z",
   "horizonDays": 180,
   "events": [
     {
@@ -153,6 +153,18 @@
       "area": "greater-fayetteville",
       "category": "Professional",
       "url": "https://www.ncmbc.us/event/combat-systems-quarterly-industry-forum-3/",
+      "source": "NC Military Business Center",
+      "sourceKey": "ncmbc"
+    },
+    {
+      "id": "ncmbc-medical-quarterly-industry-forum-2026-12-10",
+      "title": "Medical Quarterly Industry Forum",
+      "start": "2026-12-10T14:00:00.000Z",
+      "end": "2026-12-10T15:30:00.000Z",
+      "venue": "Online · PostalAddress",
+      "area": "greater-fayetteville",
+      "category": "Professional",
+      "url": "https://www.ncmbc.us/event/medical-quarterly-industry-forum-4/",
       "source": "NC Military Business Center",
       "sourceKey": "ncmbc"
     },
@@ -371,7 +383,8 @@
     {
       "source": "FTCC Small Business Center",
       "state": "retained",
-      "count": 0
+      "count": 0,
+      "error": "403 Forbidden"
     },
     {
       "source": "NC Military Business Center",
