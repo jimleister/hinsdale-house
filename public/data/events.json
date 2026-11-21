@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T18:37:35.472Z",
+  "updatedAt": "2026-11-21T17:36:20.681Z",
   "horizonDays": 180,
   "events": [
     {
@@ -11,18 +11,6 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-the-nutcracker-with-a-live-orchestra-2026-11-20",
-      "title": "The Nutcracker with a Live Orchestra",
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Concerts & Shows",
-      "url": "https://www.distinctlyfayettevillenc.com/event/the-nutcracker-with-a-live-orchestra/30072/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -70,6 +58,18 @@
       "area": "nearby",
       "category": "Festivals",
       "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-holiday-lights/28968/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-disney-night-2026-11-28",
+      "title": "Fayetteville Marksmen: Disney Night",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-disney-night/31550/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -383,8 +383,7 @@
     {
       "source": "FTCC Small Business Center",
       "state": "retained",
-      "count": 0,
-      "error": "403 Forbidden"
+      "count": 0
     },
     {
       "source": "NC Military Business Center",
