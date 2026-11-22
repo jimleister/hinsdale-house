@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T17:36:20.681Z",
+  "updatedAt": "2026-11-22T17:51:32.155Z",
   "horizonDays": 180,
   "events": [
     {
@@ -13,17 +13,6 @@
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
-    },
-    {
-      "id": "fsu-planetarium-solar-system-2026",
-      "title": "Magical Solar System Tour",
-      "start": "2026-11-22T00:00:00.000Z",
-      "venue": "Fayetteville State University Planetarium",
-      "area": "short-drive",
-      "category": "Family",
-      "url": "https://www.uncfsu.edu/about-fsu/community/planetarium",
-      "source": "Fayetteville State Planetarium",
-      "sourceKey": "manual"
     },
     {
       "id": "distinctly-fayetteville-marksmen-whiteout-wednesday-2026-11-25",
