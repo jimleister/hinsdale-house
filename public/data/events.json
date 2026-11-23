@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:51:32.155Z",
+  "updatedAt": "2026-11-23T22:03:46.703Z",
   "horizonDays": 180,
   "events": [
     {
@@ -51,14 +51,14 @@
       "sourceKey": "distinctly"
     },
     {
-      "id": "distinctly-fayetteville-marksmen-disney-night-2026-11-28",
-      "title": "Fayetteville Marksmen: Disney Night",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-disney-night/31550/",
+      "id": "distinctly-festival-of-lights-and-tiny-s-wonderland-2026-11-27",
+      "title": "Festival of Lights and Tiny's Wonderland",
+      "start": "2026-11-27",
+      "end": "2026-12-27",
+      "venue": "Sweet Valley Ranch",
+      "area": "greater-fayetteville",
+      "category": "Theater & Arts",
+      "url": "https://www.distinctlyfayettevillenc.com/event/festival-of-lights-and-tinys-wonderland/32190/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
