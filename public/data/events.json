@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:57:29.947Z",
+  "updatedAt": "2026-11-26T19:39:25.923Z",
   "horizonDays": 180,
   "events": [
     {
@@ -11,18 +11,6 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/2-4-6-(2-words-4-artists-6-tracks)/30431/",
-      "source": "DistiNCtly Fayetteville",
-      "sourceKey": "distinctly"
-    },
-    {
-      "id": "distinctly-fayetteville-marksmen-whiteout-wednesday-2026-11-25",
-      "title": "Fayetteville Marksmen: Whiteout Wednesday",
-      "start": "2026-11-25",
-      "end": "2026-11-25",
-      "venue": "Crown Complex",
-      "area": "short-drive",
-      "category": "Sports",
-      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-whiteout-wednesday/31549/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
@@ -59,6 +47,18 @@
       "area": "greater-fayetteville",
       "category": "Theater & Arts",
       "url": "https://www.distinctlyfayettevillenc.com/event/festival-of-lights-and-tinys-wonderland/32190/",
+      "source": "DistiNCtly Fayetteville",
+      "sourceKey": "distinctly"
+    },
+    {
+      "id": "distinctly-fayetteville-marksmen-disney-night-2026-11-28",
+      "title": "Fayetteville Marksmen: Disney Night",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "venue": "Crown Complex",
+      "area": "short-drive",
+      "category": "Sports",
+      "url": "https://www.distinctlyfayettevillenc.com/event/fayetteville-marksmen%3a-disney-night/31550/",
       "source": "DistiNCtly Fayetteville",
       "sourceKey": "distinctly"
     },
